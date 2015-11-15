@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<projects name="All Projects" >
+<project name="tutorial" file="tutorial.xml" root="/home/ricardo/src/renpy/tutorial/game"  />
+</projects>

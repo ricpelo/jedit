@@ -1,0 +1,661 @@
+Log file created on Sun Nov 15 02:09:43 CET 2015
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+2:09:43 [main] [message] Log: When reporting bugs, please include the following information:
+2:09:43 [main] [message] Log: java.version=1.6.0_45
+2:09:43 [main] [message] Log: java.vm.version=20.45-b01
+2:09:43 [main] [message] Log: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2:09:43 [main] [message] Log: java.runtime.version=1.6.0_45-b06
+2:09:43 [main] [message] Log: java.runtime.name=Java(TM) SE Runtime Environment
+2:09:43 [main] [message] Log: java.vendor=Sun Microsystems Inc.
+2:09:43 [main] [message] Log: java.compiler=null
+2:09:43 [main] [message] Log: os.name=Linux
+2:09:43 [main] [message] Log: os.version=3.16.0-51-generic
+2:09:43 [main] [message] Log: os.arch=amd64
+2:09:43 [main] [message] Log: user.home=/home/ricardo
+2:09:43 [main] [message] Log: java.home=/usr/lib/jvm/java-6-oracle/jre
+2:09:43 [main] [message] Log: java.class.path=/usr/share/jedit/jedit.jar
+2:09:43 [main] [message] jEdit: starting with command line arguments: 
+2:09:43 [main] [debug] jEdit: before splash screen activation:745 ms
+2:09:43 [main] [debug] jEdit: after splash screen activation:1241 ms
+2:09:43 [main] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/activity.log" to "/home/ricardo/.jedit/settings-backup/activity.log~1~"
+2:09:43 [main] [notice] jEdit: jEdit version 5.1.0
+2:09:43 [main] [message] jEdit: Settings directory is /home/ricardo/.jedit
+2:09:43 [main] [message] jEdit: jEdit home directory is /usr/share/jedit
+2:09:43 [main] [debug] SplashScreen: init:135/535ms
+2:09:43 [main] [debug] SplashScreen: init system properties:63/598ms
+2:09:43 [main] [message] BeanShell: Beanshell Init
+2:09:43 [main] [debug] SplashScreen: init beanshell:112/710ms
+2:09:43 [main] [debug] SplashScreen: loading site properties:13/723ms
+2:09:43 [main] [debug] SplashScreen: loading user properties:15/738ms
+2:09:43 [main] [debug] GUIUtilities: Icon theme set to: tango
+2:09:43 [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+2:09:43 [main] [debug] SplashScreen: init GUI:5/743ms
+2:09:43 [main] [debug] EditServer: jEdit server started on port 36281
+2:09:43 [main] [debug] EditServer: Authorization key is 481986631
+2:09:43 [main] [debug] SplashScreen: init server:26/769ms
+2:09:44 [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel new=com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel
+2:09:44 [main] [debug] SplashScreen: init look and feel:196/965ms
+2:09:44 [main] [debug] SplashScreen: init VFS Manager:5/970ms
+2:09:44 [main] [debug] ActionSet: Loading actions from jar:file:/usr/share/jedit/jedit.jar!/org/gjt/sp/jedit/actions.xml
+2:09:44 [main] [debug] DockableWindowManager: Loading dockables from jar:file:/usr/share/jedit/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+2:09:44 [main] [debug] SplashScreen: init resources:213/1183ms
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+2:09:44 [main] [debug] SplashScreen: Migrate keymaps:107/1290ms
+2:09:44 [main] [notice] jEdit: Loading plugins from /usr/share/jedit/jars
+2:09:44 [main] [notice] jEdit: Loading plugins from /home/ricardo/.jedit/jars
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.2.3,source=/home/ricardo/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=2.5.1,source=/home/ricardo/.jedit/jars/FastOpen.jar,class=com.patelsoft.fastopen.FastOpenPlugin]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=2.0,source=/home/ricardo/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.3.1,source=/home/ricardo/.jedit/jars/MacroManager.jar,class=macroManager.MacroManagerPlugin]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=0.7.1,source=/home/ricardo/.jedit/jars/GitPlugin.jar,class=git.GitPlugin]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=2.5,source=/home/ricardo/.jedit/jars/Navigator.jar,class=ise.plugin.nav.NavigatorPlugin]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.2.4,source=/home/ricardo/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.1,source=/home/ricardo/.jedit/jars/FoldViewer.jar,class=foldviewer.FoldViewerPlugin]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.7,source=/home/ricardo/.jedit/jars/EditorScheme.jar,class=editorscheme.EditorSchemePlugin]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.7.3,source=/home/ricardo/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.0.0,source=/home/ricardo/.jedit/jars/TextAutocomplete.jar,class=net.jakubholy.jedit.autocomplete.TextAutocompletePlugin]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=3.5.3,source=/home/ricardo/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/ricardo/.jedit/jars/tar.jar]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/ricardo/.jedit/jars/kappalayout.jar]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=0.3b,source=/home/ricardo/.jedit/jars/DirtyGutter.jar,class=lcm.LCMPlugin]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/ricardo/.jedit/jars/activation.jar]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.0.2,source=/home/ricardo/.jedit/jars/WhiteSpace.jar,class=whitespace.WhiteSpacePlugin]
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=0.6,source=/home/ricardo/.jedit/jars/Code2HTML.jar,class=code2html.Code2HTMLPlugin]
+2:09:44 [main] [debug] SplashScreen: init plugins:175/1465ms
+2:09:44 [main] [message] HistoryModel: Loading history
+2:09:44 [main] [debug] SplashScreen: init history model:38/1503ms
+2:09:44 [main] [message] BufferHistory: Loading /home/ricardo/.jedit/recent.xml
+2:09:44 [main] [debug] SplashScreen: init buffer history:17/1520ms
+2:09:44 [main] [message] KillRing: Loading /home/ricardo/.jedit/killring.xml
+2:09:44 [main] [debug] SplashScreen: init killring:17/1537ms
+2:09:44 [main] [debug] jEdit: initPLAF non-edt old=com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel requested=com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel new=com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel
+2:09:44 [main] [debug] jEdit: SOCKS proxy disabled
+2:09:44 [main] [debug] jEdit: HTTP proxy disabled
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+2:09:44 [main] [debug] SplashScreen: init various properties:70/1607ms
+2:09:44 [main] [message] jEdit: Loading mode catalog file /usr/share/jedit/modes/catalog
+2:09:44 [main] [message] jEdit: Loading mode catalog file /home/ricardo/.jedit/modes/catalog
+2:09:44 [main] [debug] SplashScreen: init modes:116/1723ms
+2:09:44 [main] [debug] PluginJAR: Activating candyfolds.CandyFoldsPlugin because of startup
+2:09:44 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/CandyFolds.jar
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.2.3,source=/home/ricardo/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+2:09:44 [main] [debug] PluginJAR: Activating ise.plugin.nav.NavigatorPlugin because of startup
+2:09:44 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/Navigator.jar
+2:09:44 [main] [debug] PluginJAR: Activating buffertabs.BufferTabsPlugin because of startup
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=2.5,source=/home/ricardo/.jedit/jars/Navigator.jar,class=ise.plugin.nav.NavigatorPlugin]
+2:09:44 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/BufferTabs.jar
+2:09:44 [main] [debug] PluginJAR: Activating foldviewer.FoldViewerPlugin because of startup
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.2.4,source=/home/ricardo/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+2:09:44 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/FoldViewer.jar
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.1,source=/home/ricardo/.jedit/jars/FoldViewer.jar,class=foldviewer.FoldViewerPlugin]
+2:09:44 [main] [debug] PluginJAR: Activating projectviewer.ProjectPlugin because of startup
+2:09:44 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/ProjectViewer.jar
+2:09:44 [main] [debug] PluginJAR: Activating lcm.LCMPlugin because of startup
+2:09:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=3.5.3,source=/home/ricardo/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+2:09:44 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/DirtyGutter.jar
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=0.3b,source=/home/ricardo/.jedit/jars/DirtyGutter.jar,class=lcm.LCMPlugin]
+2:09:45 [main] [debug] PluginJAR: Activating whitespace.WhiteSpacePlugin because of startup
+2:09:45 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/WhiteSpace.jar
+2:09:45 [main] [debug] PluginJAR: Activating code2html.Code2HTMLPlugin because of startup
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.0.2,source=/home/ricardo/.jedit/jars/WhiteSpace.jar,class=whitespace.WhiteSpacePlugin]
+2:09:45 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/Code2HTML.jar
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=0.6,source=/home/ricardo/.jedit/jars/Code2HTML.jar,class=code2html.Code2HTMLPlugin]
+2:09:45 [main] [debug] SplashScreen: activate plugins:171/1894ms
+2:09:45 [main] [debug] Macros: Registered beanshell macro handler
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+2:09:45 [main] [message] BeanShell: Running script /usr/share/jedit/startup/startup.bsh
+2:09:45 [main] [notice] jEdit$3: Loading edit mode /usr/share/jedit/modes/text.xml
+2:09:45 [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+2:09:45 [main] [debug] SplashScreen: init macros:327/2221ms
+2:09:45 [main] [debug] SplashScreen: run startup scripts:23/2244ms
+2:09:45 [main] [debug] SplashScreen: run startup scripts:26/2247ms
+2:09:45 [main] [debug] jEdit: main done:3142 ms
+2:09:45 [AWT-EventQueue-0] [message] PerspectiveManager: Loading /home/ricardo/.jedit/perspective.xml
+2:09:45 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/ricardo/.jedit/modes/renpy.xml
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_character.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=demo_character.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=demo_character.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=demo_character.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_dynamic.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=demo_dynamic.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=demo_dynamic.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=demo_dynamic.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_imageops.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=demo_imageops.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=demo_imageops.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=demo_imageops.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_layers.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=demo_layers.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=demo_layers.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=demo_layers.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_minigame.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=demo_minigame.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=demo_minigame.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=demo_minigame.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_nvlmode.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=demo_nvlmode.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=demo_nvlmode.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=demo_nvlmode.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_persistent.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=demo_persistent.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=demo_persistent.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=demo_persistent.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_text.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=demo_text.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=demo_text.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=demo_text.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_transform.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=demo_transform.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=demo_transform.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=demo_transform.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_transitions.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=demo_transitions.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=demo_transitions.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=demo_transitions.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_ui.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=demo_ui.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=demo_ui.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=demo_ui.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demos.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=demos.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=demos.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=demos.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=editor.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=editor.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=editor.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=editor.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=examples.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=examples.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=examples.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=examples.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=options.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=options.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=options.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=options.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=screens.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=screens.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=screens.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=screens.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=script.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=script.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=script.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=script.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=tutorial_atl.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=tutorial_atl.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=tutorial_atl.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=tutorial_atl.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=tutorial_playing.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=tutorial_playing.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=tutorial_playing.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=tutorial_playing.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=tutorial_quickstart.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=tutorial_quickstart.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=tutorial_quickstart.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=tutorial_quickstart.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=tutorial_sprite.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=tutorial_sprite.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=tutorial_sprite.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=tutorial_sprite.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=tutorial_video.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=tutorial_video.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=tutorial_video.rpy (~/src/renpy/tutorial/game/)]
+2:09:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=tutorial_video.rpy (~/src/renpy/tutorial/game/)]
+2:09:46 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+2:09:48 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+2:09:48 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: null
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(demo_character.rpy (~/src/renpy/tutorial/game/),-1)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_character.rpy (~/src/renpy/tutorial/game/) at 0
+2:09:48 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_character.rpy (~/src/renpy/tutorial/game/) at 0
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: addBufferSetListener buffertabs.BufferTabs[demo_character.rpy]
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(demo_character.rpy (~/src/renpy/tutorial/game/),0)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(demo_character.rpy (~/src/renpy/tutorial/game/),1)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(demo_dynamic.rpy (~/src/renpy/tutorial/game/),2)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_dynamic.rpy (~/src/renpy/tutorial/game/) at 1
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(demo_imageops.rpy (~/src/renpy/tutorial/game/),3)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_imageops.rpy (~/src/renpy/tutorial/game/) at 2
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(demo_layers.rpy (~/src/renpy/tutorial/game/),4)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_layers.rpy (~/src/renpy/tutorial/game/) at 3
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(demo_minigame.rpy (~/src/renpy/tutorial/game/),5)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_minigame.rpy (~/src/renpy/tutorial/game/) at 4
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(demo_nvlmode.rpy (~/src/renpy/tutorial/game/),6)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_nvlmode.rpy (~/src/renpy/tutorial/game/) at 5
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(demo_persistent.rpy (~/src/renpy/tutorial/game/),7)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_persistent.rpy (~/src/renpy/tutorial/game/) at 6
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(demo_text.rpy (~/src/renpy/tutorial/game/),8)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_text.rpy (~/src/renpy/tutorial/game/) at 7
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(demo_transform.rpy (~/src/renpy/tutorial/game/),9)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_transform.rpy (~/src/renpy/tutorial/game/) at 8
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(demo_transitions.rpy (~/src/renpy/tutorial/game/),10)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_transitions.rpy (~/src/renpy/tutorial/game/) at 9
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(demo_ui.rpy (~/src/renpy/tutorial/game/),11)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_ui.rpy (~/src/renpy/tutorial/game/) at 10
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(demos.rpy (~/src/renpy/tutorial/game/),12)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demos.rpy (~/src/renpy/tutorial/game/) at 11
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(editor.rpy (~/src/renpy/tutorial/game/),13)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added editor.rpy (~/src/renpy/tutorial/game/) at 12
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(examples.rpy (~/src/renpy/tutorial/game/),14)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added examples.rpy (~/src/renpy/tutorial/game/) at 13
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(options.rpy (~/src/renpy/tutorial/game/),15)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added options.rpy (~/src/renpy/tutorial/game/) at 14
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(screens.rpy (~/src/renpy/tutorial/game/),16)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added screens.rpy (~/src/renpy/tutorial/game/) at 15
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(script.rpy (~/src/renpy/tutorial/game/),17)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added script.rpy (~/src/renpy/tutorial/game/) at 16
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(tutorial_atl.rpy (~/src/renpy/tutorial/game/),18)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added tutorial_atl.rpy (~/src/renpy/tutorial/game/) at 17
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(tutorial_playing.rpy (~/src/renpy/tutorial/game/),19)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added tutorial_playing.rpy (~/src/renpy/tutorial/game/) at 18
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(tutorial_quickstart.rpy (~/src/renpy/tutorial/game/),20)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added tutorial_quickstart.rpy (~/src/renpy/tutorial/game/) at 19
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(tutorial_sprite.rpy (~/src/renpy/tutorial/game/),21)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added tutorial_sprite.rpy (~/src/renpy/tutorial/game/) at 20
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479 addBufferAt(tutorial_video.rpy (~/src/renpy/tutorial/game/),22)
+2:09:48 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added tutorial_video.rpy (~/src/renpy/tutorial/game/) at 21
+2:09:48 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+2:09:48 [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+2:09:48 [AWT-EventQueue-0] [message] jEdit: Startup complete: 6359 ms
+2:09:48 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/CommonControls.jar
+2:09:48 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.projectviewer.ProjectPlugin.menu,source=null]
+2:09:48 [AWT-EventQueue-0] [debug] EditBus: ViewerUpdate[source=org.gjt.sp.jedit.View[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_dynamic.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_imageops.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_layers.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_minigame.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_nvlmode.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_persistent.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_text.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_transform.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_transitions.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_ui.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demos.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: editor.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: examples.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: options.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: screens.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: script.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: tutorial_atl.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: tutorial_playing.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: tutorial_quickstart.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: tutorial_sprite.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: tutorial_video.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:09:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_character.rpy (~/src/renpy/tutorial/game/)
+2:09:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:49 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/GitPlugin.jar
+2:09:50 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.projectviewer.ProjectPlugin.menu,source=null]
+2:09:50 [AWT-EventQueue-0] [debug] DockableWindowManager: Loading dockables from jeditresource:/ProjectViewer.jar!/dockables.xml
+2:09:50 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=projectviewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,32,638x911,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@ea224b5,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:09:50 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:09:50 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:09:50 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:09:50 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.7.3,source=/home/ricardo/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
+2:09:50 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=0.7.1,source=/home/ricardo/.jedit/jars/GitPlugin.jar,class=git.GitPlugin]
+2:09:50 [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+2:09:56 [AWT-EventQueue-0] [debug] ActionSet: Loading actions from jeditresource:/BufferTabs.jar!/actions.xml
+2:10:00 [jEdit Worker #0] [message] PluginList: PluginList cached copy too old. Downloading from mirror. 
+2:10:03 [jEdit Worker #0] [error] PluginList: CacheRemotePluginList: HTTP error: 503Service Unavailable
+2:10:03 [jEdit Worker #0] [message] PluginList: Using cached pluginlist
+2:10:14 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/perspective.xml" to "/home/ricardo/.jedit/settings-backup/perspective.xml~1~"
+2:11:06 [AWT-EventQueue-0] [debug] EditBus: PropertiesChanging[source=null]
+2:11:06 [jEdit Worker #1] [notice] MirrorList: Loading mirror list from cache
+2:11:12 [jEdit Worker #2] [notice] MirrorList: Loading mirror list from internet
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread: java.net.SocketException: Connection reset
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread:  at java.net.SocketInputStream.read(SocketInputStream.java:168)
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread:  at java.io.BufferedInputStream.fill(BufferedInputStream.java:218)
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread:  at java.io.BufferedInputStream.read1(BufferedInputStream.java:258)
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread:  at java.io.BufferedInputStream.read(BufferedInputStream.java:317)
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread:  at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:698)
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread:  at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:641)
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread:  at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:663)
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread:  at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1218)
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread:  at java.net.URL.openStream(URL.java:1010)
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread:  at org.gjt.sp.jedit.pluginmgr.MirrorList.downloadXml(MirrorList.java:146)
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread:  at org.gjt.sp.jedit.pluginmgr.MirrorList.<init>(MirrorList.java:60)
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread:  at org.gjt.sp.jedit.options.PluginManagerOptionPane$UpdateMirrorsThread._run(PluginManagerOptionPane.java:316)
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread:  at org.gjt.sp.util.Task.run(Task.java:64)
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread:  at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread:  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+2:11:13 [jEdit Worker #2] [error] PluginManagerOptionPane$UpdateMirrorsThread:  at java.lang.Thread.run(Thread.java:662)
+2:11:21 [AWT-EventQueue-0] [debug] EditBus: PropertiesChanging[source=null]
+2:11:23 [AWT-EventQueue-0] [debug] EditBus: PropertiesChanging[source=null]
+2:11:23 [jEdit Worker #3] [notice] MirrorList: Loading mirror list from cache
+2:11:30 [AWT-EventQueue-0] [debug] jEdit: SOCKS proxy disabled
+2:11:30 [AWT-EventQueue-0] [debug] jEdit: HTTP proxy disabled
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_character.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_dynamic.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_imageops.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_layers.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_minigame.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_nvlmode.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_persistent.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_text.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_transform.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_transitions.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_ui.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demos.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=editor.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=examples.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=options.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=screens.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=script.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=tutorial_atl.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=tutorial_playing.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=tutorial_quickstart.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=tutorial_sprite.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=tutorial_video.rpy (~/src/renpy/tutorial/game/)]
+2:11:30 [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_character.rpy (~/src/renpy/tutorial/game/) at 0
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_dynamic.rpy (~/src/renpy/tutorial/game/) at 1
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_imageops.rpy (~/src/renpy/tutorial/game/) at 2
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_layers.rpy (~/src/renpy/tutorial/game/) at 3
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_minigame.rpy (~/src/renpy/tutorial/game/) at 4
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_nvlmode.rpy (~/src/renpy/tutorial/game/) at 5
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_persistent.rpy (~/src/renpy/tutorial/game/) at 6
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_text.rpy (~/src/renpy/tutorial/game/) at 7
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_transform.rpy (~/src/renpy/tutorial/game/) at 8
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_transitions.rpy (~/src/renpy/tutorial/game/) at 9
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demo_ui.rpy (~/src/renpy/tutorial/game/) at 10
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added demos.rpy (~/src/renpy/tutorial/game/) at 11
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added editor.rpy (~/src/renpy/tutorial/game/) at 12
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added examples.rpy (~/src/renpy/tutorial/game/) at 13
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added options.rpy (~/src/renpy/tutorial/game/) at 14
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added screens.rpy (~/src/renpy/tutorial/game/) at 15
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added script.rpy (~/src/renpy/tutorial/game/) at 16
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added tutorial_atl.rpy (~/src/renpy/tutorial/game/) at 17
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added tutorial_playing.rpy (~/src/renpy/tutorial/game/) at 18
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added tutorial_quickstart.rpy (~/src/renpy/tutorial/game/) at 19
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added tutorial_sprite.rpy (~/src/renpy/tutorial/game/) at 20
+2:11:30 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer added tutorial_video.rpy (~/src/renpy/tutorial/game/) at 21
+2:11:30 [jEdit Worker #3] [message] PluginList: PluginList cached copy too old. Downloading from mirror. 
+2:11:30 [AWT-EventQueue-0] [message] HistoryModel: Saving history
+2:11:30 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/history" to "/home/ricardo/.jedit/settings-backup/history~1~"
+2:11:30 [AWT-EventQueue-0] [message] BufferHistory: Saving /home/ricardo/.jedit/recent.xml
+2:11:30 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/recent.xml" to "/home/ricardo/.jedit/settings-backup/recent.xml~1~"
+2:11:30 [AWT-EventQueue-0] [message] KillRing: Saving /home/ricardo/.jedit/killring.xml
+2:11:30 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/killring.xml" to "/home/ricardo/.jedit/settings-backup/killring.xml~1~"
+2:11:30 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/properties" to "/home/ricardo/.jedit/settings-backup/properties~1~"
+2:11:31 [jEdit Worker #3] [error] PluginList: CacheRemotePluginList: error
+2:11:31 [jEdit Worker #3] [error] PluginList: java.net.SocketException: Connection reset
+2:11:31 [jEdit Worker #3] [error] PluginList:  at java.net.SocketInputStream.read(SocketInputStream.java:168)
+2:11:31 [jEdit Worker #3] [error] PluginList:  at java.io.BufferedInputStream.fill(BufferedInputStream.java:218)
+2:11:31 [jEdit Worker #3] [error] PluginList:  at java.io.BufferedInputStream.read1(BufferedInputStream.java:258)
+2:11:31 [jEdit Worker #3] [error] PluginList:  at java.io.BufferedInputStream.read(BufferedInputStream.java:317)
+2:11:31 [jEdit Worker #3] [error] PluginList:  at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:698)
+2:11:31 [jEdit Worker #3] [error] PluginList:  at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:641)
+2:11:31 [jEdit Worker #3] [error] PluginList:  at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:663)
+2:11:31 [jEdit Worker #3] [error] PluginList:  at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1218)
+2:11:31 [jEdit Worker #3] [error] PluginList:  at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+2:11:31 [jEdit Worker #3] [error] PluginList:  at org.gjt.sp.jedit.pluginmgr.PluginList.downloadPluginList(PluginList.java:189)
+2:11:31 [jEdit Worker #3] [error] PluginList:  at org.gjt.sp.jedit.pluginmgr.PluginList.readPluginList(PluginList.java:117)
+2:11:31 [jEdit Worker #3] [error] PluginList:  at org.gjt.sp.jedit.pluginmgr.PluginList.<init>(PluginList.java:71)
+2:11:31 [jEdit Worker #3] [error] PluginList:  at org.gjt.sp.jedit.pluginmgr.PluginManager$2._run(PluginManager.java:263)
+2:11:31 [jEdit Worker #3] [error] PluginList:  at org.gjt.sp.util.Task.run(Task.java:64)
+2:11:31 [jEdit Worker #3] [error] PluginList:  at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+2:11:31 [jEdit Worker #3] [error] PluginList:  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+2:11:31 [jEdit Worker #3] [error] PluginList:  at java.lang.Thread.run(Thread.java:662)
+2:11:31 [jEdit Worker #3] [message] PluginList: Using cached pluginlist
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: ViewerUpdate[source=projectviewer.ProjectViewer[,0,0,244x911,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@47f07360,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:12:20 [AWT-EventQueue-0] [message] PerspectiveManager: Saving /home/ricardo/.jedit/perspective.xml
+2:12:20 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/perspective.xml" to "/home/ricardo/.jedit/settings-backup/perspective.xml~1~"
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed demo_character.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_dynamic.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:demo_character.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed demo_dynamic.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_imageops.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:demo_dynamic.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed demo_imageops.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_layers.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:demo_imageops.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed demo_layers.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_minigame.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:demo_layers.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed demo_minigame.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_nvlmode.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:demo_minigame.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed demo_nvlmode.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_persistent.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:demo_nvlmode.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed demo_persistent.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_text.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:demo_persistent.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed demo_text.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_transform.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:demo_text.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed demo_transform.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_transitions.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:demo_transform.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed demo_transitions.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_ui.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:demo_transitions.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed demo_ui.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demos.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:demo_ui.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed demos.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: editor.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:demos.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed editor.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: examples.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:editor.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed examples.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: options.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:examples.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed options.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: screens.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:options.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed screens.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: script.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:screens.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed script.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: tutorial_atl.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:script.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed tutorial_atl.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: tutorial_playing.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:tutorial_atl.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed tutorial_playing.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: tutorial_quickstart.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:tutorial_playing.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed tutorial_quickstart.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: tutorial_sprite.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:tutorial_quickstart.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed tutorial_sprite.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:20 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: tutorial_video.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:tutorial_sprite.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: Buffer removed tutorial_video.rpy (~/src/renpy/tutorial/game/)
+2:12:20 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:tutorial_video.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
+2:12:20 [AWT-EventQueue-0] [debug] BufferSet: 1257515479: removeBufferSetListener buffertabs.BufferTabs[]
+2:12:20 [AWT-EventQueue-0] [notice] CandyFoldsPlugin: textAreaExt removed
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.2.3,source=/home/ricardo/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.2.3,source=/home/ricardo/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=2.5.1,source=/home/ricardo/.jedit/jars/FastOpen.jar,class=com.patelsoft.fastopen.FastOpenPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=2.0,source=/home/ricardo/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.3.1,source=/home/ricardo/.jedit/jars/MacroManager.jar,class=macroManager.MacroManagerPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=0.7.1,source=/home/ricardo/.jedit/jars/GitPlugin.jar,class=git.GitPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=0.7.1,source=/home/ricardo/.jedit/jars/GitPlugin.jar,class=git.GitPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=2.5,source=/home/ricardo/.jedit/jars/Navigator.jar,class=ise.plugin.nav.NavigatorPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=2.5,source=/home/ricardo/.jedit/jars/Navigator.jar,class=ise.plugin.nav.NavigatorPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.2.4,source=/home/ricardo/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.2.4,source=/home/ricardo/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.1,source=/home/ricardo/.jedit/jars/FoldViewer.jar,class=foldviewer.FoldViewerPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.1,source=/home/ricardo/.jedit/jars/FoldViewer.jar,class=foldviewer.FoldViewerPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.7,source=/home/ricardo/.jedit/jars/EditorScheme.jar,class=editorscheme.EditorSchemePlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.7.3,source=/home/ricardo/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.7.3,source=/home/ricardo/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.0.0,source=/home/ricardo/.jedit/jars/TextAutocomplete.jar,class=net.jakubholy.jedit.autocomplete.TextAutocompletePlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=3.5.3,source=/home/ricardo/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=3.5.3,source=/home/ricardo/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/ricardo/.jedit/jars/tar.jar]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/ricardo/.jedit/jars/kappalayout.jar]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=0.3b,source=/home/ricardo/.jedit/jars/DirtyGutter.jar,class=lcm.LCMPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=0.3b,source=/home/ricardo/.jedit/jars/DirtyGutter.jar,class=lcm.LCMPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/ricardo/.jedit/jars/activation.jar]
+2:12:20 [AWT-EventQueue-0] [debug] WhiteSpacePlugin: removing all highlights
+2:12:20 [AWT-EventQueue-0] [debug] WhiteSpacePlugin: removing WhiteSpaceModel properties
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.0.2,source=/home/ricardo/.jedit/jars/WhiteSpace.jar,class=whitespace.WhiteSpacePlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.0.2,source=/home/ricardo/.jedit/jars/WhiteSpace.jar,class=whitespace.WhiteSpacePlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=0.6,source=/home/ricardo/.jedit/jars/Code2HTML.jar,class=code2html.Code2HTMLPlugin]
+2:12:20 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=0.6,source=/home/ricardo/.jedit/jars/Code2HTML.jar,class=code2html.Code2HTMLPlugin]
+2:12:20 [AWT-EventQueue-0] [message] BufferHistory: Saving /home/ricardo/.jedit/recent.xml
+2:12:20 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/recent.xml" to "/home/ricardo/.jedit/settings-backup/recent.xml~1~"
+2:12:20 [AWT-EventQueue-0] [message] KillRing: Saving /home/ricardo/.jedit/killring.xml
+2:12:20 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/killring.xml" to "/home/ricardo/.jedit/settings-backup/killring.xml~1~"
+2:12:20 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/properties" to "/home/ricardo/.jedit/settings-backup/properties~1~"

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE MODES SYSTEM "catalog.dtd">
+
+<MODES>
+  <MODE NAME="scala" FILE="scala.xml" FILE_NAME_GLOB="*.scala" />
+  <MODE NAME="renpy" FILE="renpy.xml" FILE_NAME_GLOB="*.{rpy,rpym}" />
+</MODES>

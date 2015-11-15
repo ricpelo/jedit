@@ -1,0 +1,13 @@
+// This is a recorded macro. First, check over the
+// commands to make sure this is what you intended. Then,
+// save this buffer, and the macro should appear in the
+// Macros menu.
+textArea.selectWord();
+SearchAndReplace.setSearchString(textArea.getSelectedText());
+SearchAndReplace.setAutoWrapAround(false);
+SearchAndReplace.setReverseSearch(false);
+SearchAndReplace.setWholeWord(false);
+SearchAndReplace.setIgnoreCase(false);
+SearchAndReplace.setRegexp(false);
+SearchAndReplace.setSearchFileSet(new DirectoryListSet(buffer.getDirectory(),"*.rpy",true));
+SearchAndReplace.hyperSearch(view,false);

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE PERSPECTIVE SYSTEM "perspective.dtd">
+<PERSPECTIVE>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/ricardo/src/renpy/tutorial/game/demo_persistent.rpy</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/ricardo/src/renpy/tutorial/game/tl/japanese/tutorial_quickstart.rpy</BUFFER>
+<VIEW PLAIN="FALSE">
+<PANES>
+"/home/ricardo/src/renpy/tutorial/game/tl/japanese/tutorial_quickstart.rpy" buffer "/home/ricardo/src/renpy/tutorial/game/demo_persistent.rpy" buff "/home/ricardo/src/renpy/tutorial/game/tl/japanese/tutorial_quickstart.rpy" buff "global" bufferset
+</PANES>
+<GEOMETRY X="-2" Y="18" WIDTH="1282" HEIGHT="987" EXT_STATE="0" />
+</VIEW>
+</PERSPECTIVE>
