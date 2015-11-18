@@ -12,8 +12,9 @@
 <property name="projectviewer.version_control_service" value="Git" />
 <property name="projectviewer.import.traverse_dirs" value="true" />
 <open-file path="/home/ricardo/src/renpy/tutorial/game/demo_persistent.rpy" />
-<open-file path="/home/ricardo/src/renpy/tutorial/game/tl/japanese/tutorial_quickstart.rpy" />
 <open-file path="/home/ricardo/src/renpy/tutorial/game/tl/japanese/demo_persistent.rpy" />
+<open-file path="/home/ricardo/src/renpy/tutorial/game/keywords.py" />
+<open-file path="/home/ricardo/src/renpy/tutorial/game/tl/japanese/tutorial_quickstart.rpy" />
 <directory path="/home/ricardo/src/renpy/tutorial/game/cache">
 <file path="/home/ricardo/src/renpy/tutorial/game/cache/bytecode.rpyb" />
 <file path="/home/ricardo/src/renpy/tutorial/game/cache/im-42a5c94fdb25db9858fbed80e39608b5-18ddbc38.png" />

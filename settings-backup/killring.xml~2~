@@ -1,10 +1,6 @@
 <?xml version="1.1" encoding="UTF-8" ?>
 <!DOCTYPE KILLRING SYSTEM "killring.dtd">
 <KILLRING>
-<ENTRY>parallel</ENTRY>
-<ENTRY>parallel</ENTRY>
-<ENTRY>l	</ENTRY>
-<ENTRY>lel</ENTRY>
 <ENTRY>    paral
 </ENTRY>
 <ENTRY>4</ENTRY>
@@ -575,9 +571,7 @@ label tutorial_atl:
 
     #begin atl_zoomc indicator.
     $ e
-        zoom 1.0
-        linear 1.0 zoom 1.5
-        linear 1.0 zoom 1.0
+        zoom 1.0_('Eile  linear 1.0 zoom 1.5         color="#c8ffoom 1.0
         repeat
     #end atl_zoom
     with dissolve
@@ -817,4 +811,9 @@ label tutorial_atl:
                         color="#c8ffc8",
                         ctc=anim.Filmstrip("sakura.png", (20, 20), (2, 1), .30, xpos=760, ypos=560, xanchor=0, yanchor=0),
                         ctc_position="fixed")</ENTRY>
+<ENTRY>    # "Persistent data can store flags and other per-game information that should be shared between plays of a single game."
+</ENTRY>
+<ENTRY>fig</ENTRY>
+<ENTRY>g</ENTRY>
+<ENTRY>the</ENTRY>
 </KILLRING>

@@ -1,466 +1,578 @@
-Log file created on Sun Nov 15 18:02:13 CET 2015
+Log file created on Wed Nov 18 12:13:33 CET 2015
 IMPORTANT:
 Because updating this file after every log message would kill
 performance, it will be *incomplete* unless you invoke the
 Utilities->Troubleshooting->Update Activity Log on Disk command!
-18:02:13 [main] [message] Log: When reporting bugs, please include the following information:
-18:02:13 [main] [message] Log: java.version=1.6.0_45
-18:02:13 [main] [message] Log: java.vm.version=20.45-b01
-18:02:13 [main] [message] Log: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-18:02:13 [main] [message] Log: java.runtime.version=1.6.0_45-b06
-18:02:13 [main] [message] Log: java.runtime.name=Java(TM) SE Runtime Environment
-18:02:13 [main] [message] Log: java.vendor=Sun Microsystems Inc.
-18:02:13 [main] [message] Log: java.compiler=null
-18:02:13 [main] [message] Log: os.name=Linux
-18:02:13 [main] [message] Log: os.version=3.16.0-53-generic
-18:02:13 [main] [message] Log: os.arch=amd64
-18:02:13 [main] [message] Log: user.home=/home/ricardo
-18:02:13 [main] [message] Log: java.home=/usr/lib/jvm/java-6-oracle/jre
-18:02:13 [main] [message] Log: java.class.path=/usr/share/jedit/jedit.jar
-18:02:13 [main] [message] jEdit: starting with command line arguments: 
-18:02:13 [main] [debug] jEdit: before splash screen activation:201 ms
-18:02:13 [main] [debug] jEdit: after splash screen activation:313 ms
-18:02:13 [main] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/activity.log" to "/home/ricardo/.jedit/settings-backup/activity.log~1~"
-18:02:13 [main] [notice] jEdit: jEdit version 5.1.0
-18:02:13 [main] [message] jEdit: Settings directory is /home/ricardo/.jedit
-18:02:13 [main] [message] jEdit: jEdit home directory is /usr/share/jedit
-18:02:13 [main] [debug] SplashScreen: init:26/131ms
-18:02:13 [main] [debug] SplashScreen: init system properties:31/162ms
-18:02:13 [main] [message] BeanShell: Beanshell Init
-18:02:13 [main] [debug] SplashScreen: init beanshell:29/191ms
-18:02:13 [main] [debug] SplashScreen: loading site properties:3/194ms
-18:02:13 [main] [debug] SplashScreen: loading user properties:15/209ms
-18:02:13 [main] [debug] GUIUtilities: Icon theme set to: tango
-18:02:13 [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
-18:02:13 [main] [debug] SplashScreen: init GUI:6/215ms
-18:02:13 [main] [debug] EditServer: jEdit server started on port 42929
-18:02:13 [main] [debug] EditServer: Authorization key is 754040455
-18:02:13 [main] [debug] SplashScreen: init server:7/222ms
-18:02:13 [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=com.sun.java.swing.plaf.gtk.GTKLookAndFeel new=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
-18:02:13 [main] [debug] SplashScreen: init look and feel:44/266ms
-18:02:13 [main] [debug] SplashScreen: init VFS Manager:3/269ms
-18:02:13 [main] [debug] ActionSet: Loading actions from jar:file:/usr/share/jedit/jedit.jar!/org/gjt/sp/jedit/actions.xml
-18:02:14 [main] [debug] DockableWindowManager: Loading dockables from jar:file:/usr/share/jedit/jedit.jar!/org/gjt/sp/jedit/dockables.xml
-18:02:14 [main] [debug] SplashScreen: init resources:75/344ms
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
-18:02:14 [main] [debug] SplashScreen: Migrate keymaps:31/375ms
-18:02:14 [main] [notice] jEdit: Loading plugins from /usr/share/jedit/jars
-18:02:14 [main] [notice] jEdit: Loading plugins from /home/ricardo/.jedit/jars
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.2.3,source=/home/ricardo/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=2.5.1,source=/home/ricardo/.jedit/jars/FastOpen.jar,class=com.patelsoft.fastopen.FastOpenPlugin]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=2.0,source=/home/ricardo/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.3.1,source=/home/ricardo/.jedit/jars/MacroManager.jar,class=macroManager.MacroManagerPlugin]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=0.7.1,source=/home/ricardo/.jedit/jars/GitPlugin.jar,class=git.GitPlugin]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=2.5,source=/home/ricardo/.jedit/jars/Navigator.jar,class=ise.plugin.nav.NavigatorPlugin]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.2.4,source=/home/ricardo/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.1,source=/home/ricardo/.jedit/jars/FoldViewer.jar,class=foldviewer.FoldViewerPlugin]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.7,source=/home/ricardo/.jedit/jars/EditorScheme.jar,class=editorscheme.EditorSchemePlugin]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.7.3,source=/home/ricardo/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.0.0,source=/home/ricardo/.jedit/jars/TextAutocomplete.jar,class=net.jakubholy.jedit.autocomplete.TextAutocompletePlugin]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=3.5.3,source=/home/ricardo/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/ricardo/.jedit/jars/tar.jar]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/ricardo/.jedit/jars/kappalayout.jar]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=0.3b,source=/home/ricardo/.jedit/jars/DirtyGutter.jar,class=lcm.LCMPlugin]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/ricardo/.jedit/jars/activation.jar]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.0.2,source=/home/ricardo/.jedit/jars/WhiteSpace.jar,class=whitespace.WhiteSpacePlugin]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=0.6,source=/home/ricardo/.jedit/jars/Code2HTML.jar,class=code2html.Code2HTMLPlugin]
-18:02:14 [main] [debug] SplashScreen: init plugins:41/416ms
-18:02:14 [main] [message] HistoryModel: Loading history
-18:02:14 [main] [debug] SplashScreen: init history model:6/422ms
-18:02:14 [main] [message] BufferHistory: Loading /home/ricardo/.jedit/recent.xml
-18:02:14 [main] [debug] SplashScreen: init buffer history:14/436ms
-18:02:14 [main] [message] KillRing: Loading /home/ricardo/.jedit/killring.xml
-18:02:14 [main] [debug] SplashScreen: init killring:12/448ms
-18:02:14 [main] [debug] jEdit: initPLAF non-edt old=com.sun.java.swing.plaf.gtk.GTKLookAndFeel requested=com.sun.java.swing.plaf.gtk.GTKLookAndFeel new=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
-18:02:14 [main] [debug] jEdit: SOCKS proxy disabled
-18:02:14 [main] [debug] jEdit: HTTP proxy disabled
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
-18:02:14 [main] [debug] SplashScreen: init various properties:43/491ms
-18:02:14 [main] [message] jEdit: Loading mode catalog file /usr/share/jedit/modes/catalog
-18:02:14 [main] [message] jEdit: Loading mode catalog file /home/ricardo/.jedit/modes/catalog
-18:02:14 [main] [debug] SplashScreen: init modes:108/599ms
-18:02:14 [main] [debug] PluginJAR: Activating candyfolds.CandyFoldsPlugin because of startup
-18:02:14 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/CandyFolds.jar
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.2.3,source=/home/ricardo/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
-18:02:14 [main] [debug] PluginJAR: Activating ise.plugin.nav.NavigatorPlugin because of startup
-18:02:14 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/Navigator.jar
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=2.5,source=/home/ricardo/.jedit/jars/Navigator.jar,class=ise.plugin.nav.NavigatorPlugin]
-18:02:14 [main] [debug] PluginJAR: Activating buffertabs.BufferTabsPlugin because of startup
-18:02:14 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/BufferTabs.jar
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.2.4,source=/home/ricardo/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
-18:02:14 [main] [debug] PluginJAR: Activating foldviewer.FoldViewerPlugin because of startup
-18:02:14 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/FoldViewer.jar
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.1,source=/home/ricardo/.jedit/jars/FoldViewer.jar,class=foldviewer.FoldViewerPlugin]
-18:02:14 [main] [debug] PluginJAR: Activating projectviewer.ProjectPlugin because of startup
-18:02:14 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/ProjectViewer.jar
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=3.5.3,source=/home/ricardo/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
-18:02:14 [main] [debug] PluginJAR: Activating lcm.LCMPlugin because of startup
-18:02:14 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/DirtyGutter.jar
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=0.3b,source=/home/ricardo/.jedit/jars/DirtyGutter.jar,class=lcm.LCMPlugin]
-18:02:14 [main] [debug] PluginJAR: Activating whitespace.WhiteSpacePlugin because of startup
-18:02:14 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/WhiteSpace.jar
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.0.2,source=/home/ricardo/.jedit/jars/WhiteSpace.jar,class=whitespace.WhiteSpacePlugin]
-18:02:14 [main] [debug] PluginJAR: Activating code2html.Code2HTMLPlugin because of startup
-18:02:14 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/Code2HTML.jar
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=0.6,source=/home/ricardo/.jedit/jars/Code2HTML.jar,class=code2html.Code2HTMLPlugin]
-18:02:14 [main] [debug] SplashScreen: activate plugins:78/677ms
-18:02:14 [main] [debug] Macros: Registered beanshell macro handler
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
-18:02:14 [main] [message] BeanShell: Running script /usr/share/jedit/startup/startup.bsh
-18:02:14 [main] [notice] jEdit$3: Loading edit mode /usr/share/jedit/modes/text.xml
-18:02:14 [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
-18:02:14 [main] [debug] SplashScreen: init macros:140/817ms
-18:02:14 [main] [debug] SplashScreen: run startup scripts:5/822ms
-18:02:14 [main] [debug] SplashScreen: run startup scripts:8/825ms
-18:02:14 [AWT-EventQueue-0] [message] PerspectiveManager: Loading /home/ricardo/.jedit/perspective.xml
-18:02:14 [main] [debug] jEdit: main done:1061 ms
-18:02:14 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/ricardo/.jedit/modes/renpy.xml
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_persistent.rpy (~/src/renpy/tutorial/game/)]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=demo_persistent.rpy (~/src/renpy/tutorial/game/)]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=demo_persistent.rpy (~/src/renpy/tutorial/game/)]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=demo_persistent.rpy (~/src/renpy/tutorial/game/)]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/)]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/)]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/)]
-18:02:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/)]
-18:02:15 [AWT-EventQueue-0] [debug] BufferSet: 60102860: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
-18:02:15 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
-18:02:15 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: null
-18:02:15 [AWT-EventQueue-0] [debug] BufferSet: 60102860 addBufferAt(tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/),-1)
-18:02:15 [AWT-EventQueue-0] [debug] BufferSet: 60102860: Buffer added tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/) at 0
-18:02:15 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
-18:02:15 [AWT-EventQueue-0] [debug] BufferSet: 60102860: Buffer added tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/) at 0
-18:02:15 [AWT-EventQueue-0] [debug] BufferSet: 60102860: addBufferSetListener buffertabs.BufferTabs[tutorial_quickstart.rpy]
-18:02:15 [AWT-EventQueue-0] [debug] BufferSet: 60102860 addBufferAt(tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/),0)
-18:02:15 [AWT-EventQueue-0] [debug] BufferSet: 60102860 addBufferAt(demo_persistent.rpy (~/src/renpy/tutorial/game/),1)
-18:02:15 [AWT-EventQueue-0] [debug] BufferSet: 60102860: Buffer added demo_persistent.rpy (~/src/renpy/tutorial/game/) at 0
-18:02:15 [AWT-EventQueue-0] [debug] BufferSet: 60102860 addBufferAt(tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/),2)
-18:02:16 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
-18:02:16 [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
-18:02:16 [AWT-EventQueue-0] [message] jEdit: Startup complete: 2706 ms
-18:02:16 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/CommonControls.jar
-18:02:16 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.projectviewer.ProjectPlugin.menu,source=null]
-18:02:16 [AWT-EventQueue-0] [debug] EditBus: ViewerUpdate[source=org.gjt.sp.jedit.View[active]]
-18:02:16 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-18:02:16 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:02:16 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
-18:02:16 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_persistent.rpy (~/src/renpy/tutorial/game/)
-18:02:16 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:02:16 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-18:02:16 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:02:16 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
-18:02:16 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/)
-18:02:16 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:02:16 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/GitPlugin.jar
-18:02:16 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.projectviewer.ProjectPlugin.menu,source=null]
-18:02:16 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:02:17 [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
-18:02:17 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,638x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:02:17 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.7.3,source=/home/ricardo/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
-18:02:17 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:02:17 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-18:02:17 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:02:17 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=0.7.1,source=/home/ricardo/.jedit/jars/GitPlugin.jar,class=git.GitPlugin]
-18:02:21 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-18:02:22 [AWT-EventQueue-0] [debug] ActionSet: Loading actions from jeditresource:/BufferTabs.jar!/actions.xml
-18:02:27 [jEdit Worker #0] [message] PluginList: PluginList cached copy too old. Downloading from mirror. 
-18:02:29 [jEdit Worker #0] [message] PluginList: Updated cached pluginlist 247
-18:02:29 [jEdit Worker #0] [message] PluginList: Using cached pluginlist
-18:02:44 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/perspective.xml" to "/home/ricardo/.jedit/settings-backup/perspective.xml~1~"
-18:04:08 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:04:08 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-18:04:08 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:04:33 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
-18:04:42 [AWT-EventQueue-0] [message] BeanShell: Running script /usr/share/jedit/macros/Misc/Buffer_to_HyperSearch_Results.bsh
-18:04:45 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-18:04:45 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-18:04:47 [AWT-EventQueue-0] [message] BeanShell: Running script /home/ricardo/.jedit/macros/HypersearchGlobal.bsh
-18:04:47 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
-18:04:47 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:04:47 [jEdit Worker #1] [message] HyperSearchRequest: 522 OCCURENCES
-18:04:53 [AWT-EventQueue-0] [message] BeanShell: Running script /usr/share/jedit/macros/Misc/Buffer_to_HyperSearch_Results.bsh
-18:05:01 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-18:05:01 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:05:01 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
-18:05:01 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:05:01 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_persistent.rpy (~/src/renpy/tutorial/game/)
-18:05:01 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:05:02 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-18:05:02 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:05:02 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
-18:05:02 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:05:02 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/)
-18:05:02 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:05:09 [AWT-EventQueue-0] [message] BeanShell: Running script /usr/share/jedit/macros/Misc/Display_Abbreviations.bsh
-18:05:13 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:05:13 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-18:05:13 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:05:49 [jEdit Worker #2] [notice] MirrorList: Loading mirror list from cache
-18:05:53 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:05:53 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-18:05:53 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:06:01 [jEdit Worker #3] [message] PluginList: Using cached pluginlist
-18:06:05 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/MacroManager.jar
-18:06:19 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:06:19 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-18:06:19 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:06:28 [AWT-EventQueue-0] [debug] ActionSet: Loading actions from jeditresource:/MacroManager.jar!/actions.xml
-18:06:28 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.3.1,source=/home/ricardo/.jedit/jars/MacroManager.jar,class=macroManager.MacroManagerPlugin]
-18:10:27 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:10:27 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-18:10:27 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:10:28 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-18:10:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/)]
-18:10:31 [AWT-EventQueue-0] [debug] ActionSet: Loading actions from jeditresource:/SuperAbbrevs.jar!/actions.xml
-18:10:31 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/SuperAbbrevs.jar
-18:10:31 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-18:10:31 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=2.0,source=/home/ricardo/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
-18:10:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/)]
-18:10:37 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:10:37 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-18:10:37 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:15:56 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:15:56 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-18:15:56 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:00 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=DEACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:16:04 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:16:04 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=DEACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:16:04 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:16:05 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=DEACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:16:12 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:12 [AWT-EventQueue-0] [debug] BufferSet: 2040180330: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
-18:16:12 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
-18:16:12 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: null
-18:16:12 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:12 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
-18:16:12 [AWT-EventQueue-0] [debug] BufferSet: 2040180330: Buffer added demo_persistent.rpy (~/src/renpy/tutorial/game/) at 0
-18:16:12 [AWT-EventQueue-0] [debug] BufferSet: 2040180330: Buffer added tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/) at 1
-18:16:12 [AWT-EventQueue-0] [debug] BufferSet: 2040180330: addBufferSetListener buffertabs.BufferTabs[tutorial_quickstart.rpy]
-18:16:12 [AWT-EventQueue-0] [debug] BufferSet: 2040180330 addBufferAt(tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/),0)
-18:16:12 [AWT-EventQueue-0] [debug] BufferSet: 2040180330 addBufferAt(demo_persistent.rpy (~/src/renpy/tutorial/game/),1)
-18:16:12 [AWT-EventQueue-0] [debug] BufferSet: 2040180330 addBufferAt(tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/),2)
-18:16:12 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[inactive]]
-18:16:12 [AWT-EventQueue-0] [debug] EditBus: ViewerUpdate[source=org.gjt.sp.jedit.View[inactive]]
-18:16:12 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:16:12 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-18:16:12 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:12 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:12 [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
-18:16:14 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/perspective.xml" to "/home/ricardo/.jedit/settings-backup/perspective.xml~1~"
-18:16:15 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:16:15 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-18:16:15 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:15 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:16 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:16:16 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-18:16:16 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:16 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:17 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:16:17 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-18:16:17 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:17 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:18 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:16:18 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-18:16:18 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:18 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:21 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:16:21 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-18:16:21 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:21 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:22 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:16:22 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-18:16:22 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:22 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:25 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
-18:16:25 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:25 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
-18:16:25 [AWT-EventQueue-0] [debug] BufferSet: 2040180330: Buffer removed demo_persistent.rpy (~/src/renpy/tutorial/game/)
-18:16:25 [AWT-EventQueue-0] [debug] BufferSet: 2040180330: Buffer removed tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/)
-18:16:25 [AWT-EventQueue-0] [debug] BufferSet: 2040180330: removeBufferSetListener buffertabs.BufferTabs[]
-18:16:25 [AWT-EventQueue-0] [notice] CandyFoldsPlugin: textAreaExt removed
-18:16:25 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-18:16:25 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-18:16:25 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:16:44 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/perspective.xml" to "/home/ricardo/.jedit/settings-backup/perspective.xml~1~"
-18:17:10 [AWT-EventQueue-0] [debug] DockableWindowManager: Loading dockables from jeditresource:/ProjectViewer.jar!/dockables.xml
-18:17:10 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=projectviewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:17:10 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:12 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:12 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:12 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:12 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:12 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:12 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:12 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:12 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:13 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:13 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:14 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:14 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:14 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:14 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:14 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:14 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:14 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:14 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:19 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:19 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:20 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:22 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:23 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:23 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:23 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:23 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:23 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:23 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:24 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:24 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:17:26 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:17:31 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=projectviewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:17:49 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:05 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=DEACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:05 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=DEACTIVATED,dockable=projectviewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:05 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=projectviewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:05 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:09 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=projectviewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:10 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:18:10 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:18:10 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:18:10 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:18:10 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:18:10 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:18:10 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:18:10 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:18:10 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:18:10 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:18:10 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:18:10 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:18:10 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:18:10 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:18:10 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:18:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
-18:18:12 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=demo_persistent.rpy (~/src/renpy/tutorial/game/tl/japanese/)]
-18:18:12 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_persistent.rpy (~/src/renpy/tutorial/game/tl/japanese/)]
-18:18:12 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=demo_persistent.rpy (~/src/renpy/tutorial/game/tl/japanese/)]
-18:18:12 [AWT-EventQueue-0] [debug] BufferSet: 60102860 addBufferAt(demo_persistent.rpy (~/src/renpy/tutorial/game/tl/japanese/),-1)
-18:18:12 [AWT-EventQueue-0] [debug] BufferSet: 60102860: Buffer added demo_persistent.rpy (~/src/renpy/tutorial/game/tl/japanese/) at 1
-18:18:12 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=demo_persistent.rpy (~/src/renpy/tutorial/game/tl/japanese/)]
-18:18:12 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-18:18:12 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:18:12 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
-18:18:12 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_persistent.rpy (~/src/renpy/tutorial/game/tl/japanese/)
-18:18:12 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:18:13 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=DEACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:13 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=DEACTIVATED,dockable=projectviewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:14 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/perspective.xml" to "/home/ricardo/.jedit/settings-backup/perspective.xml~1~"
-18:18:17 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=projectviewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:17 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:18 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=DEACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:18 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=DEACTIVATED,dockable=projectviewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:18 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=projectviewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:18 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:20 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=DEACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:20 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=DEACTIVATED,dockable=projectviewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@69fc9f88,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: ViewerUpdate[source=projectviewer.ProjectViewer[,0,0,0x897,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@3304e92a,flags=9,maximumSize=,minimumSize=,preferredSize=]]
-18:18:25 [AWT-EventQueue-0] [message] PerspectiveManager: Saving /home/ricardo/.jedit/perspective.xml
-18:18:25 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/perspective.xml" to "/home/ricardo/.jedit/settings-backup/perspective.xml~1~"
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
-18:18:25 [AWT-EventQueue-0] [debug] BufferSet: 60102860: Buffer removed demo_persistent.rpy (~/src/renpy/tutorial/game/)
-18:18:25 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:demo_persistent.rpy (~/src/renpy/tutorial/game/) is in no bufferSet anymore, closing it
-18:18:25 [AWT-EventQueue-0] [debug] BufferSet: 60102860: Buffer removed demo_persistent.rpy (~/src/renpy/tutorial/game/tl/japanese/)
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
-18:18:25 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/)
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-18:18:25 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:demo_persistent.rpy (~/src/renpy/tutorial/game/tl/japanese/) is in no bufferSet anymore, closing it
-18:18:25 [AWT-EventQueue-0] [debug] BufferSet: 60102860: Buffer removed tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/)
-18:18:25 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:tutorial_quickstart.rpy (~/src/renpy/tutorial/game/tl/japanese/) is in no bufferSet anymore, closing it
-18:18:25 [AWT-EventQueue-0] [debug] BufferSet: 60102860: removeBufferSetListener buffertabs.BufferTabs[]
-18:18:25 [AWT-EventQueue-0] [notice] CandyFoldsPlugin: textAreaExt removed
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.2.3,source=/home/ricardo/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.2.3,source=/home/ricardo/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=2.5.1,source=/home/ricardo/.jedit/jars/FastOpen.jar,class=com.patelsoft.fastopen.FastOpenPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=2.0,source=/home/ricardo/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=2.0,source=/home/ricardo/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.3.1,source=/home/ricardo/.jedit/jars/MacroManager.jar,class=macroManager.MacroManagerPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.3.1,source=/home/ricardo/.jedit/jars/MacroManager.jar,class=macroManager.MacroManagerPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=0.7.1,source=/home/ricardo/.jedit/jars/GitPlugin.jar,class=git.GitPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=0.7.1,source=/home/ricardo/.jedit/jars/GitPlugin.jar,class=git.GitPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=2.5,source=/home/ricardo/.jedit/jars/Navigator.jar,class=ise.plugin.nav.NavigatorPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=2.5,source=/home/ricardo/.jedit/jars/Navigator.jar,class=ise.plugin.nav.NavigatorPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.2.4,source=/home/ricardo/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.2.4,source=/home/ricardo/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.1,source=/home/ricardo/.jedit/jars/FoldViewer.jar,class=foldviewer.FoldViewerPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.1,source=/home/ricardo/.jedit/jars/FoldViewer.jar,class=foldviewer.FoldViewerPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.7,source=/home/ricardo/.jedit/jars/EditorScheme.jar,class=editorscheme.EditorSchemePlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.7.3,source=/home/ricardo/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.7.3,source=/home/ricardo/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.0.0,source=/home/ricardo/.jedit/jars/TextAutocomplete.jar,class=net.jakubholy.jedit.autocomplete.TextAutocompletePlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=3.5.3,source=/home/ricardo/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=3.5.3,source=/home/ricardo/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/ricardo/.jedit/jars/tar.jar]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/ricardo/.jedit/jars/kappalayout.jar]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=0.3b,source=/home/ricardo/.jedit/jars/DirtyGutter.jar,class=lcm.LCMPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=0.3b,source=/home/ricardo/.jedit/jars/DirtyGutter.jar,class=lcm.LCMPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/ricardo/.jedit/jars/activation.jar]
-18:18:25 [AWT-EventQueue-0] [debug] WhiteSpacePlugin: removing all highlights
-18:18:25 [AWT-EventQueue-0] [debug] WhiteSpacePlugin: removing WhiteSpaceModel properties
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.0.2,source=/home/ricardo/.jedit/jars/WhiteSpace.jar,class=whitespace.WhiteSpacePlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.0.2,source=/home/ricardo/.jedit/jars/WhiteSpace.jar,class=whitespace.WhiteSpacePlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=0.6,source=/home/ricardo/.jedit/jars/Code2HTML.jar,class=code2html.Code2HTMLPlugin]
-18:18:25 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=0.6,source=/home/ricardo/.jedit/jars/Code2HTML.jar,class=code2html.Code2HTMLPlugin]
-18:18:25 [AWT-EventQueue-0] [message] HistoryModel: Saving history
-18:18:25 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/history" to "/home/ricardo/.jedit/settings-backup/history~1~"
-18:18:25 [AWT-EventQueue-0] [message] BufferHistory: Saving /home/ricardo/.jedit/recent.xml
-18:18:25 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/recent.xml" to "/home/ricardo/.jedit/settings-backup/recent.xml~1~"
-18:18:25 [AWT-EventQueue-0] [message] KillRing: Saving /home/ricardo/.jedit/killring.xml
-18:18:25 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/killring.xml" to "/home/ricardo/.jedit/settings-backup/killring.xml~1~"
-18:18:25 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/properties" to "/home/ricardo/.jedit/settings-backup/properties~1~"
+12:13:32 [main] [message] Log: When reporting bugs, please include the following information:
+12:13:32 [main] [message] Log: java.version=1.6.0_45
+12:13:32 [main] [message] Log: java.vm.version=20.45-b01
+12:13:32 [main] [message] Log: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+12:13:32 [main] [message] Log: java.runtime.version=1.6.0_45-b06
+12:13:32 [main] [message] Log: java.runtime.name=Java(TM) SE Runtime Environment
+12:13:32 [main] [message] Log: java.vendor=Sun Microsystems Inc.
+12:13:32 [main] [message] Log: java.compiler=null
+12:13:32 [main] [message] Log: os.name=Linux
+12:13:32 [main] [message] Log: os.version=3.16.0-53-generic
+12:13:32 [main] [message] Log: os.arch=amd64
+12:13:32 [main] [message] Log: user.home=/home/ricardo
+12:13:32 [main] [message] Log: java.home=/usr/lib/jvm/java-6-oracle/jre
+12:13:32 [main] [message] Log: java.class.path=jedit/jedit.jar
+12:13:32 [main] [message] jEdit: starting with command line arguments: -reuseview /home/ricardo/src/Renpy Imagebuttons GUI sample/game/script.rpy /home/ricardo/src/Renpy Imagebuttons GUI sample/game/options.rpy /home/ricardo/src/Renpy Imagebuttons GUI sample/game/screens.rpy /home/ricardo/src/Renpy Imagebuttons GUI sample/game/example.rpy
+12:13:32 [main] [debug] jEdit: before splash screen activation:950 ms
+12:13:33 [main] [debug] jEdit: after splash screen activation:1463 ms
+12:13:33 [main] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/activity.log" to "/home/ricardo/.jedit/settings-backup/activity.log~1~"
+12:13:33 [main] [notice] jEdit: jEdit version 5.1.0
+12:13:33 [main] [message] jEdit: Settings directory is /home/ricardo/.jedit
+12:13:33 [main] [message] jEdit: jEdit home directory is /home/ricardo/src/renpy/jedit
+12:13:33 [main] [debug] SplashScreen: init:88/532ms
+12:13:33 [main] [debug] SplashScreen: init system properties:52/584ms
+12:13:33 [main] [message] BeanShell: Beanshell Init
+12:13:33 [main] [debug] SplashScreen: init beanshell:59/643ms
+12:13:33 [main] [debug] jEdit: Loading site snippet: /home/ricardo/src/renpy/jedit/properties/renpy.props
+12:13:33 [main] [debug] SplashScreen: loading site properties:45/688ms
+12:13:33 [main] [debug] SplashScreen: loading user properties:23/711ms
+12:13:33 [main] [debug] GUIUtilities: Icon theme set to: tango
+12:13:33 [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+12:13:33 [main] [debug] SplashScreen: init GUI:7/718ms
+12:13:33 [main] [debug] EditServer: jEdit server started on port 38376
+12:13:33 [main] [debug] EditServer: Authorization key is 1858906636
+12:13:33 [main] [debug] SplashScreen: init server:23/741ms
+12:13:34 [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=com.sun.java.swing.plaf.gtk.GTKLookAndFeel new=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
+12:13:34 [main] [debug] SplashScreen: init look and feel:289/1030ms
+12:13:34 [main] [debug] SplashScreen: init VFS Manager:5/1035ms
+12:13:34 [main] [debug] ActionSet: Loading actions from jar:file:/home/ricardo/src/renpy/jedit/jedit.jar!/org/gjt/sp/jedit/actions.xml
+12:13:34 [main] [debug] DockableWindowManager: Loading dockables from jar:file:/home/ricardo/src/renpy/jedit/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+12:13:34 [main] [debug] SplashScreen: init resources:271/1306ms
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+12:13:34 [main] [debug] SplashScreen: Migrate keymaps:110/1416ms
+12:13:34 [main] [notice] jEdit: Loading plugins from /home/ricardo/src/renpy/jedit/jars
+12:13:34 [main] [debug] PluginJAR: Opening /home/ricardo/src/renpy/jedit/jars/BufferTabs.jar
+12:13:34 [main] [debug] ActionSet: Loading actions from jeditresource:/BufferTabs.jar!/actions.xml
+12:13:34 [main] [debug] PluginJAR: Writing /home/ricardo/.jedit/jars-cache/BufferTabs.jar.summary
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.2.4,source=/home/ricardo/src/renpy/jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=/home/ricardo/src/renpy/jedit/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/ricardo/src/renpy/jedit/jars/jedit5.1.0install.jar]
+12:13:34 [main] [debug] PluginJAR: Opening /home/ricardo/src/renpy/jedit/jars/WhiteSpace.jar
+12:13:34 [main] [debug] ActionSet: Loading actions from jeditresource:/WhiteSpace.jar!/actions.xml
+12:13:34 [main] [debug] PluginJAR: Writing /home/ricardo/.jedit/jars-cache/WhiteSpace.jar.summary
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.0.2,source=/home/ricardo/src/renpy/jedit/jars/WhiteSpace.jar,class=whitespace.WhiteSpacePlugin]
+12:13:34 [main] [notice] jEdit: Loading plugins from /home/ricardo/.jedit/jars
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.2.3,source=/home/ricardo/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=2.5.1,source=/home/ricardo/.jedit/jars/FastOpen.jar,class=com.patelsoft.fastopen.FastOpenPlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=2.0,source=/home/ricardo/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.3.1,source=/home/ricardo/.jedit/jars/MacroManager.jar,class=macroManager.MacroManagerPlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=0.7.1,source=/home/ricardo/.jedit/jars/GitPlugin.jar,class=git.GitPlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=2.5,source=/home/ricardo/.jedit/jars/Navigator.jar,class=ise.plugin.nav.NavigatorPlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=2.3,source=/home/ricardo/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+12:13:34 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/BufferTabs.jar
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=false,version=1.2.4,source=/home/ricardo/src/renpy/jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+12:13:34 [main] [debug] ActionSet: Loading actions from jeditresource:/BufferTabs.jar!/actions.xml
+12:13:34 [main] [debug] PluginJAR: Writing /home/ricardo/.jedit/jars-cache/BufferTabs.jar.summary
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.2.4,source=/home/ricardo/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.1,source=/home/ricardo/.jedit/jars/FoldViewer.jar,class=foldviewer.FoldViewerPlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.7,source=/home/ricardo/.jedit/jars/EditorScheme.jar,class=editorscheme.EditorSchemePlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.7.3,source=/home/ricardo/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.1.4,source=/home/ricardo/.jedit/jars/Console.jar,class=console.ConsolePlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.0.0,source=/home/ricardo/.jedit/jars/TextAutocomplete.jar,class=net.jakubholy.jedit.autocomplete.TextAutocompletePlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=3.5.3,source=/home/ricardo/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/ricardo/.jedit/jars/tar.jar]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/ricardo/.jedit/jars/kappalayout.jar]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=0.3b,source=/home/ricardo/.jedit/jars/DirtyGutter.jar,class=lcm.LCMPlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=/home/ricardo/.jedit/jars/activation.jar]
+12:13:34 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/WhiteSpace.jar
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=false,version=1.0.2,source=/home/ricardo/src/renpy/jedit/jars/WhiteSpace.jar,class=whitespace.WhiteSpacePlugin]
+12:13:34 [main] [debug] ActionSet: Loading actions from jeditresource:/WhiteSpace.jar!/actions.xml
+12:13:34 [main] [debug] PluginJAR: Writing /home/ricardo/.jedit/jars-cache/WhiteSpace.jar.summary
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.0.2,source=/home/ricardo/.jedit/jars/WhiteSpace.jar,class=whitespace.WhiteSpacePlugin]
+12:13:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=0.6,source=/home/ricardo/.jedit/jars/Code2HTML.jar,class=code2html.Code2HTMLPlugin]
+12:13:34 [main] [debug] SplashScreen: init plugins:435/1851ms
+12:13:34 [main] [message] HistoryModel: Loading history
+12:13:34 [main] [debug] SplashScreen: init history model:35/1886ms
+12:13:34 [main] [message] BufferHistory: Loading /home/ricardo/.jedit/recent.xml
+12:13:34 [main] [debug] SplashScreen: init buffer history:24/1910ms
+12:13:34 [main] [message] KillRing: Loading /home/ricardo/.jedit/killring.xml
+12:13:34 [main] [debug] SplashScreen: init killring:56/1966ms
+12:13:35 [main] [debug] jEdit: initPLAF non-edt old=com.sun.java.swing.plaf.gtk.GTKLookAndFeel requested=com.sun.java.swing.plaf.gtk.GTKLookAndFeel new=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
+12:13:35 [main] [debug] jEdit: SOCKS proxy disabled
+12:13:35 [main] [debug] jEdit: HTTP proxy disabled
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+12:13:35 [main] [debug] SplashScreen: init various properties:83/2049ms
+12:13:35 [main] [message] jEdit: Loading mode catalog file /home/ricardo/src/renpy/jedit/modes/catalog
+12:13:35 [main] [message] jEdit: Loading mode catalog file /home/ricardo/.jedit/modes/catalog
+12:13:35 [main] [debug] SplashScreen: init modes:115/2164ms
+12:13:35 [main] [debug] PluginJAR: Activating candyfolds.CandyFoldsPlugin because of startup
+12:13:35 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/CandyFolds.jar
+12:13:35 [main] [debug] PluginJAR: Activating ise.plugin.nav.NavigatorPlugin because of startup
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.2.3,source=/home/ricardo/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+12:13:35 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/Navigator.jar
+12:13:35 [main] [debug] PluginJAR: Activating buffertabs.BufferTabsPlugin because of startup
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=2.5,source=/home/ricardo/.jedit/jars/Navigator.jar,class=ise.plugin.nav.NavigatorPlugin]
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.2.4,source=/home/ricardo/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+12:13:35 [main] [debug] PluginJAR: Activating foldviewer.FoldViewerPlugin because of startup
+12:13:35 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/FoldViewer.jar
+12:13:35 [main] [debug] PluginJAR: Activating console.ConsolePlugin because of startup
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.1,source=/home/ricardo/.jedit/jars/FoldViewer.jar,class=foldviewer.FoldViewerPlugin]
+12:13:35 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/Console.jar
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:13:35 [main] [debug] ConsolePlugin: Loaded 22 Actions
+12:13:35 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/ErrorList.jar
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=2.3,source=/home/ricardo/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+12:13:35 [main] [debug] PluginJAR: Activating projectviewer.ProjectPlugin because of startup
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=5.1.4,source=/home/ricardo/.jedit/jars/Console.jar,class=console.ConsolePlugin]
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:13:35 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/ProjectViewer.jar
+12:13:35 [main] [debug] PluginJAR: Activating lcm.LCMPlugin because of startup
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=3.5.3,source=/home/ricardo/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:13:35 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/DirtyGutter.jar
+12:13:35 [main] [debug] PluginJAR: Activating whitespace.WhiteSpacePlugin because of startup
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=0.3b,source=/home/ricardo/.jedit/jars/DirtyGutter.jar,class=lcm.LCMPlugin]
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:13:35 [main] [debug] PluginJAR: Activating code2html.Code2HTMLPlugin because of startup
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.0.2,source=/home/ricardo/.jedit/jars/WhiteSpace.jar,class=whitespace.WhiteSpacePlugin]
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:13:35 [main] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/Code2HTML.jar
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=0.6,source=/home/ricardo/.jedit/jars/Code2HTML.jar,class=code2html.Code2HTMLPlugin]
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:13:35 [main] [debug] SplashScreen: activate plugins:309/2473ms
+12:13:35 [main] [debug] Macros: Registered beanshell macro handler
+12:13:35 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+12:13:35 [main] [message] BeanShell: Running script /home/ricardo/src/renpy/jedit/startup/startup.bsh
+12:13:35 [main] [notice] jEdit$3: Loading edit mode /home/ricardo/src/renpy/jedit/modes/text.xml
+12:13:35 [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+12:13:35 [main] [debug] SplashScreen: init macros:332/2805ms
+12:13:35 [main] [debug] SplashScreen: run startup scripts:3/2808ms
+12:13:35 [main] [debug] SplashScreen: run startup scripts:6/2811ms
+12:13:35 [main] [debug] jEdit: main done:3977 ms
+12:13:35 [AWT-EventQueue-0] [message] PerspectiveManager: Loading /home/ricardo/.jedit/perspective.xml
+12:13:36 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/ricardo/.jedit/modes/renpy.xml
+12:13:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 ($RENPY_BASE/)]
+12:13:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 ($RENPY_BASE/)]
+12:13:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 ($RENPY_BASE/)]
+12:13:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 ($RENPY_BASE/)]
+12:13:36 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+12:13:38 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: null
+12:13:38 [AWT-EventQueue-0] [debug] BufferSet: 1619519236 addBufferAt(Untitled-1 ($RENPY_BASE/),-1)
+12:13:38 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer added Untitled-1 ($RENPY_BASE/) at 0
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+12:13:38 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer added Untitled-1 ($RENPY_BASE/) at 0
+12:13:38 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: addBufferSetListener buffertabs.BufferTabs[Untitled-1]
+12:13:38 [AWT-EventQueue-0] [debug] BufferSet: 1619519236 addBufferAt(Untitled-1 ($RENPY_BASE/),0)
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=script.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:13:38 [AWT-EventQueue-0] [debug] BufferSet: 1619519236 addBufferAt(script.rpy (~/src/Renpy Imagebuttons GUI sample/game/),-1)
+12:13:38 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer added script.rpy (~/src/Renpy Imagebuttons GUI sample/game/) at 0
+12:13:38 [AWT-EventQueue-0] [debug] BufferSetManager: removeBuffer(BufferSet[nbBuffers=2],Untitled-1 ($RENPY_BASE/))
+12:13:38 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer removed Untitled-1 ($RENPY_BASE/)
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:38 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 ($RENPY_BASE/) is in no bufferSet anymore, closing it
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=null,source=Untitled-1 ($RENPY_BASE/)]
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=null,source=Untitled-1 ($RENPY_BASE/)]
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=script.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=options.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:13:38 [AWT-EventQueue-0] [debug] BufferSet: 1619519236 addBufferAt(options.rpy (~/src/Renpy Imagebuttons GUI sample/game/),-1)
+12:13:38 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer added options.rpy (~/src/Renpy Imagebuttons GUI sample/game/) at 0
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=options.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=screens.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:13:38 [AWT-EventQueue-0] [debug] BufferSet: 1619519236 addBufferAt(screens.rpy (~/src/Renpy Imagebuttons GUI sample/game/),-1)
+12:13:38 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer added screens.rpy (~/src/Renpy Imagebuttons GUI sample/game/) at 1
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=screens.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:13:38 [AWT-EventQueue-0] [debug] BufferSet: 1619519236 addBufferAt(example.rpy (~/src/Renpy Imagebuttons GUI sample/game/),-1)
+12:13:38 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer added example.rpy (~/src/Renpy Imagebuttons GUI sample/game/) at 0
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+12:13:38 [AWT-EventQueue-0] [message] jEdit: Startup complete: 6973 ms
+12:13:38 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/CommonControls.jar
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.projectviewer.ProjectPlugin.menu,source=null]
+12:13:38 [AWT-EventQueue-0] [debug] EditBus: ViewerUpdate[source=org.gjt.sp.jedit.View[active]]
+12:13:39 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=demo_persistent.rpy ($RENPY_BASE/tutorial/game/)]
+12:13:39 [AWT-EventQueue-0] [debug] BufferSet: 1619519236 addBufferAt(demo_persistent.rpy ($RENPY_BASE/tutorial/game/),-1)
+12:13:39 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer added demo_persistent.rpy ($RENPY_BASE/tutorial/game/) at 0
+12:13:39 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=demo_persistent.rpy ($RENPY_BASE/tutorial/game/)]
+12:13:39 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:39 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:39 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=tutorial_quickstart.rpy ($RENPY_BASE/tutorial/game/tl/japanese/)]
+12:13:39 [AWT-EventQueue-0] [debug] BufferSet: 1619519236 addBufferAt(tutorial_quickstart.rpy ($RENPY_BASE/tutorial/game/tl/japanese/),-1)
+12:13:39 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer added tutorial_quickstart.rpy ($RENPY_BASE/tutorial/game/tl/japanese/) at 5
+12:13:39 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=tutorial_quickstart.rpy ($RENPY_BASE/tutorial/game/tl/japanese/)]
+12:13:39 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:39 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:39 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=demo_persistent.rpy ($RENPY_BASE/tutorial/game/tl/japanese/)]
+12:13:39 [AWT-EventQueue-0] [debug] BufferSet: 1619519236 addBufferAt(demo_persistent.rpy ($RENPY_BASE/tutorial/game/tl/japanese/),-1)
+12:13:39 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer added demo_persistent.rpy ($RENPY_BASE/tutorial/game/tl/japanese/) at 1
+12:13:39 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=demo_persistent.rpy ($RENPY_BASE/tutorial/game/tl/japanese/)]
+12:13:39 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:39 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:39 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/GitPlugin.jar
+12:13:39 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.projectviewer.ProjectPlugin.menu,source=null]
+12:13:39 [AWT-EventQueue-0] [debug] DockableWindowManager: Loading dockables from jeditresource:/Console.jar!/dockables.xml
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,638x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@61b00766,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:13:40 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=script.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=script.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=options.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=options.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=screens.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=screens.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_persistent.rpy ($RENPY_BASE/tutorial/game/)]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=demo_persistent.rpy ($RENPY_BASE/tutorial/game/)]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=tutorial_quickstart.rpy ($RENPY_BASE/tutorial/game/tl/japanese/)]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=tutorial_quickstart.rpy ($RENPY_BASE/tutorial/game/tl/japanese/)]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=demo_persistent.rpy ($RENPY_BASE/tutorial/game/tl/japanese/)]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=demo_persistent.rpy ($RENPY_BASE/tutorial/game/tl/japanese/)]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:13:40 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.7.3,source=/home/ricardo/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=0.7.1,source=/home/ricardo/.jedit/jars/GitPlugin.jar,class=git.GitPlugin]
+12:13:40 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:13:40 [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+12:13:41 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:13:41 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:13:41 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:13:43 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:13:43 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:13:43 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:13:45 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:13:45 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:13:45 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:13:52 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:52 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:13:52 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:52 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)
+12:13:52 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:13:53 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:53 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:13:53 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:53 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: options.rpy (~/src/Renpy Imagebuttons GUI sample/game/)
+12:13:53 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:13:54 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:54 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:13:54 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:54 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)
+12:13:54 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:13:56 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:57 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:59 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:59 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:13:59 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:13:59 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
+12:13:59 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: tutorial_quickstart.rpy ($RENPY_BASE/tutorial/game/tl/japanese/)
+12:13:59 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:14:01 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:14:01 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:14:01 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:14:01 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: script.rpy (~/src/Renpy Imagebuttons GUI sample/game/)
+12:14:01 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:14:02 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:14:02 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:14:02 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:14:02 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: options.rpy (~/src/Renpy Imagebuttons GUI sample/game/)
+12:14:02 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:14:03 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:14:03 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:14:03 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:14:03 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)
+12:14:03 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:14:05 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/perspective.xml" to "/home/ricardo/.jedit/settings-backup/perspective.xml~1~"
+12:14:05 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:14:05 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:14:05 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:14:05 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
+12:14:05 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_persistent.rpy ($RENPY_BASE/tutorial/game/tl/japanese/)
+12:14:05 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:14:06 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:14:06 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:14:06 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:14:06 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
+12:14:06 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: demo_persistent.rpy ($RENPY_BASE/tutorial/game/)
+12:14:06 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:14:07 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:14:07 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:14:07 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:14:07 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)
+12:14:07 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:14:17 [AWT-EventQueue-0] [debug] ActionSet: Loading actions from jeditresource:/Console.jar!/actions.xml
+12:15:00 [AWT-EventQueue-0] [debug] DockableWindowManager: Loading dockables from jeditresource:/ProjectViewer.jar!/dockables.xml
+12:15:00 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=projectviewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@61b00766,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+12:15:04 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
+12:15:06 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=keywords.py ($RENPY_BASE/tutorial/game/)]
+12:15:06 [AWT-EventQueue-0] [debug] BufferSet: 1619519236 addBufferAt(keywords.py ($RENPY_BASE/tutorial/game/),-1)
+12:15:06 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer added keywords.py ($RENPY_BASE/tutorial/game/) at 3
+12:15:06 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=keywords.py ($RENPY_BASE/tutorial/game/)]
+12:15:06 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:15:06 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:15:06 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:15:06 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/ricardo/src/renpy/jedit/modes/python.xml
+12:15:06 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=keywords.py ($RENPY_BASE/tutorial/game/)]
+12:15:06 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=keywords.py ($RENPY_BASE/tutorial/game/)]
+12:15:11 [AWT-EventQueue-0] [debug] EditBus: NodeSelectionUpdate[source=org.gjt.sp.jedit.View[active]]
+12:15:11 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=options.rpy ($RENPY_BASE/tutorial/game/)]
+12:15:11 [AWT-EventQueue-0] [debug] BufferSet: 1619519236 addBufferAt(options.rpy ($RENPY_BASE/tutorial/game/),-1)
+12:15:11 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer added options.rpy ($RENPY_BASE/tutorial/game/) at 5
+12:15:11 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=options.rpy ($RENPY_BASE/tutorial/game/)]
+12:15:11 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:15:11 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:15:11 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:15:11 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=options.rpy ($RENPY_BASE/tutorial/game/)]
+12:15:11 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=options.rpy ($RENPY_BASE/tutorial/game/)]
+12:15:14 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:15:35 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/perspective.xml" to "/home/ricardo/.jedit/settings-backup/perspective.xml~1~"
+12:15:36 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:15:36 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:15:36 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:15:45 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:15:45 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:15:45 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:15:46 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:15:47 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=options.rpy ($RENPY_BASE/tutorial/game/)]
+12:15:51 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=options.rpy ($RENPY_BASE/tutorial/game/)]
+12:15:56 [AWT-EventQueue-0] [debug] ActionSet: Loading actions from jeditresource:/TextAutocomplete.jar!/actions.xml
+12:15:56 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/ricardo/.jedit/jars/TextAutocomplete.jar
+12:15:56 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CREATED 
+12:15:56 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: Attaching to the buffer: options.rpy ($RENPY_BASE/tutorial/game/)
+12:15:56 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: getDefaultWordListForBuffer('options.rpy'): returning null
+12:15:56 [AWT-EventQueue-0] [notice] TextAutocompletePlugin: AutoComplete.rememberWord: the max. number of remembered words(1000) has just been reached for the buffer 'options.rpy'. No more words will befurther remembered unless some is deleted/the limit changes.
+12:15:56 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: loadBufferModeKeywords: 1965 keywords extracted from 2 edit sub-modes with 1965 from the main mode for the buffer 'options.rpy': xaround xanchoraround text_strikethrough text_selected_strikethrough text_selected_minwidth text_selected_min_width text_selected_insensitive_selected_hover_strikethrough text_selected_insensitive_selected_hover_minwidth text_selected_insensitive_selected_hover_min_width text_selected_idle_strikethrough text_selected_idle_minwidth text_selected_idle_min_width text_selected_activate_strikethrough text_selected_activate_minwidth text_selected_activate_min_width text_minwidth text_min_width text_insensitive_strikethrough text_insensitive_minwidth text_insensitive_min_width text_idle_strikethrough text_idle_minwidth text_idle_min_width text_hover_strikethrough text_hover_minwidth text_hover_min_width text_activate_strikethrough text_activate_minwidth text_activate_min_width insensitive_ypos insensitive_xpos insensitive_slow_cps insensitive_radius insensitive_pos insensitive_outlines insensitive_hyperlink_functions insensitive_antialias idle_ypos idle_xpos idle_slow_cps idle_radius idle_pos idle_outlines idle_hyperlink_functions idle_antialias hover_yoffset hover_xoffset hover_thumb_offset hover_rest_indent hover_offset hover_newline_indent hover_layout hover_font hover_fit_first hover_first_indent hover_box_layout hover_bar_invert height while while parallel is hotspot yaround yanchoraround xysize xsize insensitive_yoffset insensitive_xoffset insensitive_thumb_offset insensitive_rest_indent insensitive_offset insensitive_newline_indent insensitive_layout insensitive_font insensitive_fit_first insensitive_first_indent insensitive_box_layout insensitive_bar_invert idle_yoffset idle_xoffset idle_thumb_offset idle_rest_indent idle_offset idle_newline_indent idle_layout idle_font idle_fit_first idle_first_indent idle_box_layout idle_bar_invert delay yield on input init import ysize selected_insensitive_selected_hover_focus_mask selected_idle_focus_mask selected_focus_mask selected_activate_focus_mask left_gutter left_bar python xpadding width subpixel side_yfill side_xfill side_selected_yfill side_selected_xfill side_selected_insensitive_selected_hover_yfill side_selected_insensitive_selected_hover_xfill side_selected_idle_yfill side_selected_idle_xfill side_selected_activate_yfill side_selected_activate_xfill side_insensitive_yfill side_insensitive_xfill side_idle_yfill side_idle_xfill side_hover_yfill side_hover_xfill side_activate_yfill side_activate_xfill selected_yfill selected_xfill selected_vertical selected_subpixel selected_insensitive_selected_hover_yfill selected_insensitive_selected_hover_xfill selected_insensitive_selected_hover_vertical selected_insensitive_selected_hover_subpixel selected_insensitive_selected_hover_bar_vertical selected_idle_yfill selected_idle_xfill selected_idle_vertical selected_idle_subpixel selected_idle_bar_vertical selected_bar_vertical selected_activate_yfill selected_activate_xfill selected_activate_vertical selected_activate_subpixel selected_activate_bar_vertical hover_thumb_shadow hover_drop_shadow with with knot finally ypadding text_yfill text_xfill text_vertical text_selected_yfill text_selected_xfill text_selected_vertical text_selected_insensitive_selected_hover_yfill text_selected_insensitive_selected_hover_xfill text_selected_insensitive_selected_hover_vertical text_selected_idle_yfill text_selected_idle_xfill text_selected_idle_vertical text_selected_activate_yfill text_selected_activate_xfill text_selected_activate_vertical text_insensitive_yfill text_insensitive_xfill text_insensitive_vertical text_idle_yfill text_idle_xfill text_idle_vertical text_hover_yfill text_hover_xfill text_hover_vertical text_activate_yfill text_activate_xfill text_activate_vertical side_ymaximum side_xmaximum side_selected_ymaximum side_selected_xmaximum side_selected_maximum side_selected_insensitive_selected_hover_ymaximum side_selected_insensitive_selected_hover_xmaximum side_selected_insensitive_selected_hover_maximum side_selected_idle_ymaximum side_selected_idle_xmaximum side_selected_idle_maximum side_selected_activate_ymaximum side_selected_activate_xmaximum side_selected_activate_maximum side_maximum side_insensitive_ymaximum side_insensitive_xmaximum side_insensitive_maximum side_idle_ymaximum side_idle_xmaximum side_idle_maximum side_hover_ymaximum side_hover_xmaximum side_hover_maximum side_activate_ymaximum side_activate_xmaximum side_activate_maximum selected_zoom selected_yzoom selected_yminimum selected_ymaximum selected_xzoom selected_xminimum selected_xmaximum selected_minimum selected_maximum selected_insensitive_selected_hover_zoom selected_insensitive_selected_hover_yzoom selected_insensitive_selected_hover_yminimum selected_insensitive_selected_hover_ymaximum selected_insensitive_selected_hover_xzoom selected_insensitive_selected_hover_xminimum selected_insensitive_selected_hover_xmaximum selected_insensitive_selected_hover_minimum selected_insensitive_selected_hover_maximum selected_idle_zoom selected_idle_yzoom selected_idle_yminimum selected_idle_ymaximum selected_idle_xzoom selected_idle_xminimum selected_idle_xmaximum selected_idle_minimum selected_idle_maximum selected_activate_zoom selected_activate_yzoom selected_activate_yminimum selected_activate_ymaximum selected_activate_xzoom selected_activate_xminimum selected_activate_xmaximum selected_activate_minimum selected_activate_maximum right_margin layout insensitive_thumb_shadow insensitive_drop_shadow idle_thumb_shadow idle_drop_shadow return return hbox text_yminimum text_ymaximum text_xminimum text_xmaximum text_selected_yminimum text_selected_ymaximum text_selected_xminimum text_selected_xmaximum text_selected_minimum text_selected_maximum text_selected_insensitive_selected_hover_yminimum text_selected_insensitive_selected_hover_ymaximum text_selected_insensitive_selected_hover_xminimum text_selected_insensitive_selected_hover_xmaximum text_selected_insensitive_selected_hover_minimum text_selected_insensitive_selected_hover_maximum text_selected_idle_yminimum text_selected_idle_ymaximum text_selected_idle_xminimum text_selected_idle_xmaximum text_selected_idle_minimum text_selected_idle_maximum text_selected_activate_yminimum text_selected_activate_ymaximum text_selected_activate_xminimum text_selected_activate_xmaximum text_selected_activate_minimum text_selected_activate_maximum text_minimum text_maximum text_insensitive_yminimum text_insensitive_ymaximum text_insensitive_xminimum text_insensitive_xmaximum text_insensitive_minimum text_insensitive_maximum text_idle_yminimum text_idle_ymaximum text_idle_xminimum text_idle_xmaximum text_idle_minimum text_idle_maximum text_hover_yminimum text_hover_ymaximum text_hover_xminimum text_hover_xmaximum text_hover_minimum text_hover_maximum text_activate_yminimum text_activate_ymaximum text_activate_xminimum text_activate_xmaximum text_activate_minimum text_activate_maximum side_yalign side_xalign side_selected_yalign side_selected_xalign side_selected_insensitive_selected_hover_yalign side_selected_insensitive_selected_hover_xalign side_selected_insensitive_selected_hover_align side_selected_idle_yalign side_selected_idle_xalign side_selected_idle_align side_selected_align side_selected_activate_yalign side_selected_activate_xalign side_selected_activate_align side_insensitive_yalign side_insensitive_xalign side_insensitive_align side_idle_yalign side_idle_xalign side_idle_align side_hover_yalign side_hover_xalign side_hover_align side_align side_activate_yalign side_activate_xalign side_activate_align selected_ymargin selected_yalign selected_xmargin selected_xalign selected_top_margin selected_text_align selected_right_margin selected_left_margin selected_insensitive_selected_hover_ymargin selected_insensitive_selected_hover_yalign selected_insensitive_selected_hover_xmargin selected_insensitive_selected_hover_xalign selected_insensitive_selected_hover_top_margin selected_insensitive_selected_hover_text_align selected_insensitive_selected_hover_right_margin selected_insensitive_selected_hover_left_margin selected_insensitive_selected_hover_bottom_margin selected_insensitive_selected_hover_align selected_idle_ymargin selected_idle_yalign selected_idle_xmargin selected_idle_xalign selected_idle_top_margin selected_idle_text_align selected_idle_right_margin selected_idle_left_margin selected_idle_bottom_margin selected_idle_align selected_bottom_margin selected_align selected_activate_ymargin selected_activate_yalign selected_activate_xmargin selected_activate_xalign selected_activate_top_margin selected_activate_text_align selected_activate_right_margin selected_activate_left_margin selected_activate_bottom_margin selected_activate_align hover_justify hover_delay transform transform screen or onlayer vertical top_margin text_yalign text_xalign text_text_align text_selected_yalign text_selected_xalign text_selected_text_align text_selected_insensitive_selected_hover_yalign text_selected_insensitive_selected_hover_xalign text_selected_insensitive_selected_hover_text_align text_selected_insensitive_selected_hover_align text_selected_idle_yalign text_selected_idle_xalign text_selected_idle_text_align text_selected_idle_align text_selected_align text_selected_activate_yalign text_selected_activate_xalign text_selected_activate_text_align text_selected_activate_align text_insensitive_yalign text_insensitive_xalign text_insensitive_text_align text_insensitive_align text_idle_yalign text_idle_xalign text_idle_text_align text_idle_align text_hover_yalign text_hover_xalign text_hover_text_align text_hover_align text_align text_activate_yalign text_activate_xalign text_activate_text_align text_activate_align outlines newline_indent insensitive_justify insensitive_delay idle_justify idle_delay textbutton not menu style_group size_group selected_size_group selected_insensitive_selected_hover_size_group selected_insensitive_selected_hover_crop selected_insensitive_selected_hover_box_wrap selected_idle_size_group selected_idle_crop selected_idle_box_wrap selected_crop selected_box_wrap selected_activate_size_group selected_activate_crop selected_activate_box_wrap pos offset justify stop pass xinitial xfill right_gutter right_bar print key yinitial yfill xzoom xminimum xmaximum slow_cps_multiplier side_ycenter side_yanchor side_xcenter side_xanchor side_selected_ycenter side_selected_yanchor side_selected_xcenter side_selected_xanchor side_selected_insensitive_selected_hover_ycenter side_selected_insensitive_selected_hover_yanchor side_selected_insensitive_selected_hover_xcenter side_selected_insensitive_selected_hover_xanchor side_selected_insensitive_selected_hover_anchor side_selected_idle_ycenter side_selected_idle_yanchor side_selected_idle_xcenter side_selected_idle_xanchor side_selected_idle_anchor side_selected_anchor side_selected_activate_ycenter side_selected_activate_yanchor side_selected_activate_xcenter side_selected_activate_xanchor side_selected_activate_anchor side_insensitive_ycenter side_insensitive_yanchor side_insensitive_xcenter side_insensitive_xanchor side_insensitive_anchor side_idle_ycenter side_idle_yanchor side_idle_xcenter side_idle_xanchor side_idle_anchor side_hover_ycenter side_hover_yanchor side_hover_xcenter side_hover_xanchor side_hover_anchor side_anchor side_activate_ycenter side_activate_yanchor side_activate_xcenter side_activate_xanchor side_activate_anchor selected_ycenter selected_yanchor selected_xcenter selected_xanchor selected_transform_anchor selected_top_gutter selected_top_bar selected_slow_cps_multiplier selected_right_gutter selected_right_bar selected_left_gutter selected_left_bar selected_insensitive_selected_hover_ycenter selected_insensitive_selected_hover_yanchor selected_insensitive_selected_hover_xcenter selected_insensitive_selected_hover_xanchor selected_insensitive_selected_hover_transform_anchor selected_insensitive_selected_hover_top_gutter selected_insensitive_selected_hover_top_bar selected_insensitive_selected_hover_slow_cps_multiplier selected_insensitive_selected_hover_right_gutter selected_insensitive_selected_hover_right_bar selected_insensitive_selected_hover_left_gutter selected_insensitive_selected_hover_left_bar selected_insensitive_selected_hover_drop_shadow_color selected_insensitive_selected_hover_color selected_insensitive_selected_hover_bottom_gutter selected_insensitive_selected_hover_bottom_bar selected_insensitive_selected_hover_black_color selected_insensitive_selected_hover_anchor selected_idle_ycenter selected_idle_yanchor selected_idle_xcenter selected_idle_xanchor selected_idle_transform_anchor selected_idle_top_gutter selected_idle_top_bar selected_idle_slow_cps_multiplier selected_idle_right_gutter selected_idle_right_bar selected_idle_left_gutter selected_idle_left_bar selected_idle_drop_shadow_color selected_idle_color selected_idle_bottom_gutter selected_idle_bottom_bar selected_idle_black_color selected_idle_anchor selected_hover selected_drop_shadow_color selected_color selected_bottom_gutter selected_bottom_bar selected_black_color selected_anchor selected_activate_ycenter selected_activate_yanchor selected_activate_xcenter selected_activate_xanchor selected_activate_transform_anchor selected_activate_top_gutter selected_activate_top_bar selected_activate_slow_cps_multiplier selected_activate_right_gutter selected_activate_right_bar selected_activate_left_gutter selected_activate_left_bar selected_activate_drop_shadow_color selected_activate_color selected_activate_bottom_gutter selected_activate_bottom_bar selected_activate_black_color selected_activate_anchor radius yzoom yminimum ymaximum xmargin xalign transform_anchor top_gutter top_bar text_ycenter text_yanchor text_xcenter text_xanchor text_slow_cps_multiplier text_selected_ycenter text_selected_yanchor text_selected_xcenter text_selected_xanchor text_selected_slow_cps_multiplier text_selected_insensitive_selected_hover_ycenter text_selected_insensitive_selected_hover_yanchor text_selected_insensitive_selected_hover_xcenter text_selected_insensitive_selected_hover_xanchor text_selected_insensitive_selected_hover_slow_cps_multiplier text_selected_insensitive_selected_hover_drop_shadow_color text_selected_insensitive_selected_hover_color text_selected_insensitive_selected_hover_black_color text_selected_insensitive_selected_hover_anchor text_selected_idle_ycenter text_selected_idle_yanchor text_selected_idle_xcenter text_selected_idle_xanchor text_selected_idle_slow_cps_multiplier text_selected_idle_drop_shadow_color text_selected_idle_color text_selected_idle_black_color text_selected_idle_anchor text_selected_drop_shadow_color text_selected_color text_selected_black_color text_selected_anchor text_selected_activate_ycenter text_selected_activate_yanchor text_selected_activate_xcenter text_selected_activate_xanchor text_selected_activate_slow_cps_multiplier text_selected_activate_drop_shadow_color text_selected_activate_color text_selected_activate_black_color text_selected_activate_anchor text_insensitive_ycenter text_insensitive_yanchor text_insensitive_xcenter text_insensitive_xanchor text_insensitive_slow_cps_multiplier text_insensitive_drop_shadow_color text_insensitive_color text_insensitive_black_color text_insensitive_anchor text_idle_ycenter text_idle_yanchor text_idle_xcenter text_idle_xanchor text_idle_slow_cps_multiplier text_idle_drop_shadow_color text_idle_color text_idle_black_color text_idle_anchor text_hover_ycenter text_hover_yanchor text_hover_xcenter text_hover_xanchor text_hover_slow_cps_multiplier text_hover_drop_shadow_color text_hover_color text_hover_black_color text_hover_anchor text_drop_shadow_color text_color text_black_color text_anchor text_activate_ycenter text_activate_yanchor text_activate_xcenter text_activate_xanchor text_activate_slow_cps_multiplier text_activate_drop_shadow_color text_activate_color text_activate_black_color text_activate_anchor slow_cps side_ypos side_xpos side_selected_ypos side_selected_xpos side_selected_pos side_selected_insensitive_selected_hover_ypos side_selected_insensitive_selected_hover_xpos side_selected_insensitive_selected_hover_pos side_selected_idle_ypos side_selected_idle_xpos side_selected_idle_pos side_selected_activate_ypos side_selected_activate_xpos side_selected_activate_pos side_pos side_insensitive_ypos side_insensitive_xpos side_insensitive_pos side_idle_ypos side_idle_xpos side_idle_pos side_hover_ypos side_hover_xpos side_hover_pos side_activate_ypos side_activate_xpos side_activate_pos selected_ypos selected_xpos selected_slow_cps selected_radius selected_pos selected_outlines selected_insensitive_selected_hover_ypos selected_insensitive_selected_hover_xpos selected_insensitive_selected_hover_slow_cps selected_insensitive_selected_hover_radius selected_insensitive_selected_hover_pos selected_insensitive_selected_hover_outlines selected_insensitive_selected_hover_hyperlink_functions selected_insensitive_selected_hover_antialias selected_idle_ypos selected_idle_xpos selected_idle_slow_cps selected_idle_radius selected_idle_pos selected_idle_outlines selected_idle_hyperlink_functions selected_idle_antialias selected_hyperlink_functions selected_antialias selected_activate_ypos selected_activate_xpos selected_activate_slow_cps selected_activate_radius selected_activate_pos selected_activate_outlines selected_activate_hyperlink_functions selected_activate_antialias scrollbars rest_indent activate_corner1 timer repeat zoom ymargin yalign text_ypos text_xpos text_slow_cps text_selected_ypos text_selected_xpos text_selected_slow_cps text_selected_pos text_selected_outlines text_selected_insensitive_selected_hover_ypos text_selected_insensitive_selected_hover_xpos text_selected_insensitive_selected_hover_slow_cps text_selected_insensitive_selected_hover_pos text_selected_insensitive_selected_hover_outlines text_selected_insensitive_selected_hover_hyperlink_functions text_selected_insensitive_selected_hover_antialias text_selected_idle_ypos text_selected_idle_xpos text_selected_idle_slow_cps text_selected_idle_pos text_selected_idle_outlines text_selected_idle_hyperlink_functions text_selected_idle_antialias text_selected_hyperlink_functions text_selected_antialias text_selected_activate_ypos text_selected_activate_xpos text_selected_activate_slow_cps text_selected_activate_pos text_selected_activate_outlines text_selected_activate_hyperlink_functions text_selected_activate_antialias text_pos text_outlines text_insensitive_ypos text_insensitive_xpos text_insensitive_slow_cps text_insensitive_pos text_insensitive_outlines text_insensitive_hyperlink_functions text_insensitive_antialias text_idle_ypos text_idle_xpos text_idle_slow_cps text_idle_pos text_idle_outlines text_idle_hyperlink_functions text_idle_antialias text_hyperlink_functions text_hover_ypos text_hover_xpos text_hover_slow_cps text_hover_pos text_hover_outlines text_hover_hyperlink_functions text_hover_antialias text_antialias text_activate_ypos text_activate_xpos text_activate_slow_cps text_activate_pos text_activate_outlines text_activate_hyperlink_functions text_activate_antialias side_yoffset side_xoffset side_selected_yoffset side_selected_xoffset side_selected_insensitive_selected_hover_yoffset side_selected_insensitive_selected_hover_xoffset side_selected_idle_yoffset side_selected_idle_xoffset side_selected_activate_yoffset side_selected_activate_xoffset side_insensitive_yoffset side_insensitive_xoffset side_idle_yoffset side_idle_xoffset side_hover_yoffset side_hover_xoffset side_activate_yoffset side_activate_xoffset selected_yoffset selected_xoffset selected_thumb_offset selected_rest_indent selected_offset selected_newline_indent selected_layout selected_insensitive_selected_hover_yoffset selected_insensitive_selected_hover_xoffset selected_insensitive_selected_hover_thumb_offset selected_insensitive_selected_hover_rest_indent selected_insensitive_selected_hover_offset selected_insensitive_selected_hover_newline_indent selected_insensitive_selected_hover_layout selected_insensitive_selected_hover_font selected_insensitive_selected_hover_fit_first selected_insensitive_selected_hover_first_indent selected_insensitive_selected_hover_box_layout selected_insensitive_selected_hover_bar_invert selected_idle_yoffset selected_idle_xoffset selected_idle_thumb_offset selected_idle_rest_indent selected_idle_offset selected_idle_newline_indent selected_idle_layout selected_idle_font selected_idle_fit_first selected_idle_first_indent selected_idle_box_layout selected_idle_bar_invert selected_font selected_fit_first selected_first_indent selected_box_layout selected_bar_invert selected_activate_yoffset selected_activate_xoffset selected_activate_thumb_offset selected_activate_rest_indent selected_activate_offset selected_activate_newline_indent selected_activate_layout selected_activate_font selected_activate_fit_first selected_activate_first_indent selected_activate_box_layout selected_activate_bar_invert activate_corner2 set thumb_offset text_yoffset text_xoffset text_selected_yoffset text_selected_xoffset text_selected_rest_indent text_selected_newline_indent text_selected_layout text_selected_insensitive_selected_hover_yoffset text_selected_insensitive_selected_hover_xoffset text_selected_insensitive_selected_hover_rest_indent text_selected_insensitive_selected_hover_newline_indent text_selected_insensitive_selected_hover_layout text_selected_insensitive_selected_hover_font text_selected_insensitive_selected_hover_first_indent text_selected_idle_yoffset text_selected_idle_xoffset text_selected_idle_rest_indent text_selected_idle_newline_indent text_selected_idle_layout text_selected_idle_font text_selected_idle_first_indent text_selected_font text_selected_first_indent text_selected_activate_yoffset text_selected_activate_xoffset text_selected_activate_rest_indent text_selected_activate_newline_indent text_selected_activate_layout text_selected_activate_font text_selected_activate_first_indent text_rest_indent text_newline_indent text_layout text_insensitive_yoffset text_insensitive_xoffset text_insensitive_rest_indent text_insensitive_newline_indent text_insensitive_layout text_insensitive_font text_insensitive_first_indent text_idle_yoffset text_idle_xoffset text_idle_rest_indent text_idle_newline_indent text_idle_layout text_idle_font text_idle_first_indent text_hover_yoffset text_hover_xoffset text_hover_rest_indent text_hover_newline_indent text_hover_layout text_hover_font text_hover_first_indent text_font text_first_indent text_activate_yoffset text_activate_xoffset text_activate_rest_indent text_activate_newline_indent text_activate_layout text_activate_font text_activate_first_indent prefix corner1 vbar text corner2 play xcenter xanchor slow selected_thumb_shadow selected_insensitive_selected_hover_thumb_shadow selected_insensitive_selected_hover_drop_shadow selected_idle_thumb_shadow selected_idle_drop_shadow selected_drop_shadow selected_activate_thumb_shadow selected_activate_drop_shadow viewport show ycenter yanchor xpos thumb_shadow text_selected_insensitive_selected_hover_drop_shadow text_selected_idle_drop_shadow text_selected_drop_shadow text_selected_activate_drop_shadow text_insensitive_drop_shadow text_idle_drop_shadow text_hover_drop_shadow text_drop_shadow text_activate_drop_shadow suffix ypos xoffset xadjustment selected_justify selected_insensitive_selected_hover_justify selected_insensitive_selected_hover_delay selected_idle_justify selected_idle_delay selected_delay selected_activate_justify selected_activate_delay zorder yoffset yadjustment text_selected_justify text_selected_insensitive_selected_hover_justify text_selected_idle_justify text_selected_activate_justify text_justify text_insensitive_justify text_idle_justify text_hover_justify text_activate_justify hover_corner1 try insensitive_corner1 idle_corner1 hover_corner2 window vbox insensitive_corner2 idle_corner2 $ area alpha activate_area activate_alpha activate_thumb selected_insensitive_selected_hover_corner1 selected_idle_corner1 selected_corner1 selected_activate_corner1 activate_italic selected_insensitive_selected_hover_corner2 selected_idle_corner2 selected_corner2 selected_activate_corner2 around alignaround activate_yaround activate_yanchoraround activate_xaround activate_xanchoraround activate_sound activate_rotate_pad activate_foreground activate_child activate_bold activate_background activate_around activate_alignaround and add bold background angle alternate additive activate_ysize activate_xysize activate_xsize activate_unscrollable activate_underline activate_text_y_fudge activate_slow_abortable activate_size activate_ruby_style activate_rotate activate_order_reverse activate_mouse activate_language activate_box_reverse activate_angle activate_additive behind clicked child changed box_reverse dropped dragged drag_joined child_size cache activate_ypadding activate_xpadding activate_top_padding activate_spacing activate_right_padding activate_line_spacing activate_line_leading activate_left_padding activate_kerning activate_first_spacing activate_clipping activate_bottom_padding activate_bar_resizing exec counterclockwise continue clockwise choice hover_area hover_alpha droppable draggable drag_raise drag_name drag_handle bottom_padding bar_resizing activate_strikethrough activate_minwidth activate_min_width define insensitive_area insensitive_alpha idle_area idle_alpha hover_thumb foreground exclude clipping fixed else def insensitive_thumb idle_thumb hover_italic ground grid frame elif italic insensitive_italic idle_italic hovered hover_yaround hover_yanchoraround hover_xaround hover_xanchoraround hover_sound hover_rotate_pad hover_foreground hover_child hover_bold hover_background hover_around hover_alignaround activate_focus_mask insensitive_yaround insensitive_yanchoraround insensitive_xaround insensitive_xanchoraround insensitive_sound insensitive_rotate_pad insensitive_foreground insensitive_child insensitive_bold insensitive_background insensitive_around insensitive_alignaround idle_yaround idle_yanchoraround idle_xaround idle_xanchoraround idle_sound idle_rotate_pad idle_foreground idle_child idle_bold idle_background idle_around idle_alignaround id hover_ysize hover_xysize hover_xsize hover_unscrollable hover_underline hover_text_y_fudge hover_slow_abortable hover_size hover_ruby_style hover_rotate hover_order_reverse hover_mouse hover_language hover_box_reverse hover_angle hover_additive first_spacing activate_yfill activate_xfill activate_vertical activate_subpixel activate_bar_vertical lambda hide break block insensitive_ysize insensitive_xysize insensitive_xsize insensitive_unscrollable insensitive_underline insensitive_text_y_fudge insensitive_slow_abortable insensitive_size insensitive_ruby_style insensitive_rotate insensitive_order_reverse insensitive_mouse insensitive_language insensitive_box_reverse insensitive_angle insensitive_additive insensitive image_style idle_ysize idle_xysize idle_xsize idle_unscrollable idle_underline idle_text_y_fudge idle_slow_abortable idle_size idle_ruby_style idle_rotate idle_order_reverse idle_mouse idle_language idle_box_reverse idle_angle idle_additive idle bar_vertical activate_zoom activate_yzoom activate_yminimum activate_ymaximum activate_xzoom activate_xminimum activate_xmaximum activate_minimum activate_maximum image hover_ypadding hover_xpadding hover_top_padding hover_spacing hover_right_padding hover_line_spacing hover_line_leading hover_left_padding hover_kerning hover_first_spacing hover_clipping hover_bottom_padding hover_bar_resizing align activate_ymargin activate_yalign activate_xmargin activate_xalign activate_top_margin activate_text_align activate_right_margin activate_left_margin activate_bottom_margin activate_align action if if call animation insensitive_ypadding insensitive_xpadding insensitive_top_padding insensitive_spacing insensitive_right_padding insensitive_line_spacing insensitive_line_leading insensitive_left_padding insensitive_kerning insensitive_first_spacing insensitive_clipping insensitive_bottom_padding insensitive_bar_resizing idle_ypadding idle_xpadding idle_top_padding idle_spacing idle_right_padding idle_line_spacing idle_line_leading idle_left_padding idle_kerning idle_first_spacing idle_clipping idle_bottom_padding idle_bar_resizing hover_strikethrough hover_minwidth hover_min_width bottom_margin auto del button language insensitive_strikethrough insensitive_minwidth insensitive_min_width idle_strikethrough idle_minwidth idle_min_width focus_mask edgescroll activate_size_group activate_crop activate_box_wrap mouse kerning box_wrap line_spacing line_leading left_padding hover_focus_mask crop anchor activate_ycenter activate_yanchor activate_xcenter activate_xanchor activate_transform_anchor activate_top_gutter activate_top_bar activate_slow_cps_multiplier activate_right_gutter activate_right_bar activate_left_gutter activate_left_bar activate_drop_shadow_color activate_color activate_bottom_gutter activate_bottom_bar activate_black_color activate_anchor global from expression side_selected_insensitive_selected_hover_area side_selected_idle_area side_selected_area side_selected_activate_area side_insensitive_area side_idle_area side_hover_area side_area side_activate_area selected_insensitive_selected_hover_area selected_insensitive_selected_hover_alpha selected_idle_area selected_idle_alpha selected_area selected_alpha selected_activate_area selected_activate_alpha order_reverse length insensitive_focus_mask idle_focus_mask hover_yfill hover_xfill hover_vertical hover_subpixel hover_bar_vertical bottom_gutter bottom_bar black_color antialias activate_ypos activate_xpos activate_slow_cps activate_radius activate_pos activate_outlines activate_hyperlink_functions activate_antialias function bar as as text_selected_insensitive_selected_hover_area text_selected_idle_area text_selected_area text_selected_activate_area text_insensitive_area text_idle_area text_hover_area text_area text_activate_area selected_thumb selected_insensitive_selected_hover_thumb selected_idle_thumb selected_activate_thumb minwidth min_width insensitive_yfill insensitive_xfill insensitive_vertical insensitive_subpixel insensitive_bar_vertical idle_yfill idle_xfill idle_vertical idle_subpixel idle_bar_vertical hover_zoom hover_yzoom hover_yminimum hover_ymaximum hover_xzoom hover_xminimum hover_xmaximum hover_minimum hover_maximum color adjustment activate_yoffset activate_xoffset activate_thumb_offset activate_rest_indent activate_offset activate_newline_indent activate_layout activate_font activate_fit_first activate_first_indent activate_box_layout activate_bar_invert pause at assert thumb selected_italic selected_insensitive_selected_hover_italic selected_idle_italic selected_activate_italic rotate_pad insensitive_zoom insensitive_yzoom insensitive_yminimum insensitive_ymaximum insensitive_xzoom insensitive_xminimum insensitive_xmaximum insensitive_minimum insensitive_maximum idle_zoom idle_yzoom idle_yminimum idle_ymaximum idle_xzoom idle_xminimum idle_xmaximum idle_minimum idle_maximum hover_ymargin hover_yalign hover_xmargin hover_xalign hover_top_margin hover_text_align hover_right_margin hover_left_margin hover_bottom_margin hover_align drop_shadow_color box_layout bar_invert queue contains class circles text_selected_italic text_selected_insensitive_selected_hover_italic text_selected_idle_italic text_selected_activate_italic text_italic text_insensitive_italic text_idle_italic text_hover_italic text_activate_italic sound selected_yaround selected_yanchoraround selected_xaround selected_xanchoraround selected_sound selected_rotate_pad selected_insensitive_selected_hover_yaround selected_insensitive_selected_hover_yanchoraround selected_insensitive_selected_hover_xaround selected_insensitive_selected_hover_xanchoraround selected_insensitive_selected_hover_sound selected_insensitive_selected_hover_rotate_pad selected_insensitive_selected_hover_foreground selected_insensitive_selected_hover_child selected_insensitive_selected_hover_bold selected_insensitive_selected_hover_background selected_insensitive_selected_hover_around selected_insensitive_selected_hover_alignaround selected_idle_yaround selected_idle_yanchoraround selected_idle_xaround selected_idle_xanchoraround selected_idle_sound selected_idle_rotate_pad selected_idle_foreground selected_idle_child selected_idle_bold selected_idle_background selected_idle_around selected_idle_alignaround selected_foreground selected_child selected_bold selected_background selected_around selected_alignaround selected_activate_yaround selected_activate_yanchoraround selected_activate_xaround selected_activate_xanchoraround selected_activate_sound selected_activate_rotate_pad selected_activate_foreground selected_activate_child selected_activate_bold selected_activate_background selected_activate_around selected_activate_alignaround ruby_style rotate range insensitive_ymargin insensitive_yalign insensitive_xmargin insensitive_xalign insensitive_top_margin insensitive_text_align insensitive_right_margin insensitive_left_margin insensitive_bottom_margin insensitive_align idle_ymargin idle_yalign idle_xmargin idle_xalign idle_top_margin idle_text_align idle_right_margin idle_left_margin idle_bottom_margin idle_align raise in in imagebutton text_selected_insensitive_selected_hover_bold text_selected_idle_bold text_selected_bold text_selected_activate_bold text_insensitive_bold text_idle_bold text_hover_bold text_bold text_activate_bold substitute slow_done slow_abortable size side_ysize side_xysize side_xsize side_selected_ysize side_selected_xysize side_selected_xsize side_selected_insensitive_selected_hover_ysize side_selected_insensitive_selected_hover_xysize side_selected_insensitive_selected_hover_xsize side_selected_idle_ysize side_selected_idle_xysize side_selected_idle_xsize side_selected_activate_ysize side_selected_activate_xysize side_selected_activate_xsize side_insensitive_ysize side_insensitive_xysize side_insensitive_xsize side_idle_ysize side_idle_xysize side_idle_xsize side_hover_ysize side_hover_xysize side_hover_xsize side_activate_ysize side_activate_xysize side_activate_xsize selected_ysize selected_xysize selected_xsize selected_unscrollable selected_underline selected_text_y_fudge selected_slow_abortable selected_size selected_ruby_style selected_rotate selected_order_reverse selected_mouse selected_language selected_insensitive_selected_hover_ysize selected_insensitive_selected_hover_xysize selected_insensitive_selected_hover_xsize selected_insensitive_selected_hover_unscrollable selected_insensitive_selected_hover_underline selected_insensitive_selected_hover_text_y_fudge selected_insensitive_selected_hover_slow_abortable selected_insensitive_selected_hover_size selected_insensitive_selected_hover_ruby_style selected_insensitive_selected_hover_rotate selected_insensitive_selected_hover_order_reverse selected_insensitive_selected_hover_mouse selected_insensitive_selected_hover_language selected_insensitive_selected_hover_box_reverse selected_insensitive_selected_hover_angle selected_insensitive_selected_hover_additive selected_insensitive selected_idle_ysize selected_idle_xysize selected_idle_xsize selected_idle_unscrollable selected_idle_underline selected_idle_text_y_fudge selected_idle_slow_abortable selected_idle_size selected_idle_ruby_style selected_idle_rotate selected_idle_order_reverse selected_idle_mouse selected_idle_language selected_idle_box_reverse selected_idle_angle selected_idle_additive selected_idle selected_box_reverse selected_angle selected_additive selected_activate_ysize selected_activate_xysize selected_activate_xsize selected_activate_unscrollable selected_activate_underline selected_activate_text_y_fudge selected_activate_slow_abortable selected_activate_size selected_activate_ruby_style selected_activate_rotate selected_activate_order_reverse selected_activate_mouse selected_activate_language selected_activate_box_reverse selected_activate_angle selected_activate_additive scope pixel_width hover_size_group hover_crop hover_box_wrap default allow activate_thumb_shadow activate_drop_shadow style side scene label for unhovered transpose text_ysize text_y_fudge text_xysize text_xsize text_underline text_text_y_fudge text_style text_slow_abortable text_size text_selected_ysize text_selected_xysize text_selected_xsize text_selected_underline text_selected_text_y_fudge text_selected_slow_abortable text_selected_size text_selected_ruby_style text_selected_language text_selected_insensitive_selected_hover_ysize text_selected_insensitive_selected_hover_xysize text_selected_insensitive_selected_hover_xsize text_selected_insensitive_selected_hover_underline text_selected_insensitive_selected_hover_text_y_fudge text_selected_insensitive_selected_hover_slow_abortable text_selected_insensitive_selected_hover_size text_selected_insensitive_selected_hover_ruby_style text_selected_insensitive_selected_hover_language text_selected_idle_ysize text_selected_idle_xysize text_selected_idle_xsize text_selected_idle_underline text_selected_idle_text_y_fudge text_selected_idle_slow_abortable text_selected_idle_size text_selected_idle_ruby_style text_selected_idle_language text_selected_activate_ysize text_selected_activate_xysize text_selected_activate_xsize text_selected_activate_underline text_selected_activate_text_y_fudge text_selected_activate_slow_abortable text_selected_activate_size text_selected_activate_ruby_style text_selected_activate_language text_ruby_style text_language text_insensitive_ysize text_insensitive_xysize text_insensitive_xsize text_insensitive_underline text_insensitive_text_y_fudge text_insensitive_slow_abortable text_insensitive_size text_insensitive_ruby_style text_insensitive_language text_idle_ysize text_idle_xysize text_idle_xsize text_idle_underline text_idle_text_y_fudge text_idle_slow_abortable text_idle_size text_idle_ruby_style text_idle_language text_hover_ysize text_hover_xysize text_hover_xsize text_hover_underline text_hover_text_y_fudge text_hover_slow_abortable text_hover_size text_hover_ruby_style text_hover_language text_activate_ysize text_activate_xysize text_activate_xsize text_activate_underline text_activate_text_y_fudge text_activate_slow_abortable text_activate_size text_activate_ruby_style text_activate_language right_padding mousewheel insensitive_size_group insensitive_crop insensitive_box_wrap idle_size_group idle_crop idle_box_wrap focus translate time imagemap except event unscrollable underline spacing side_spacing side_selected_spacing side_selected_insensitive_selected_hover_spacing side_selected_insensitive_selected_hover_clipping side_selected_idle_spacing side_selected_idle_clipping side_selected_clipping side_selected_activate_spacing side_selected_activate_clipping side_insensitive_spacing side_insensitive_clipping side_idle_spacing side_idle_clipping side_hover_spacing side_hover_clipping side_clipping side_activate_spacing side_activate_clipping selected_ypadding selected_xpadding selected_top_padding selected_spacing selected_right_padding selected_line_spacing selected_line_leading selected_left_padding selected_kerning selected_insensitive_selected_hover_ypadding selected_insensitive_selected_hover_xpadding selected_insensitive_selected_hover_top_padding selected_insensitive_selected_hover_spacing selected_insensitive_selected_hover_right_padding selected_insensitive_selected_hover_line_spacing selected_insensitive_selected_hover_line_leading selected_insensitive_selected_hover_left_padding selected_insensitive_selected_hover_kerning selected_insensitive_selected_hover_first_spacing selected_insensitive_selected_hover_clipping selected_insensitive_selected_hover_bottom_padding selected_insensitive_selected_hover_bar_resizing selected_idle_ypadding selected_idle_xpadding selected_idle_top_padding selected_idle_spacing selected_idle_right_padding selected_idle_line_spacing selected_idle_line_leading selected_idle_left_padding selected_idle_kerning selected_idle_first_spacing selected_idle_clipping selected_idle_bottom_padding selected_idle_bar_resizing selected_first_spacing selected_clipping selected_bottom_padding selected_bar_resizing selected_activate_ypadding selected_activate_xpadding selected_activate_top_padding selected_activate_spacing selected_activate_right_padding selected_activate_line_spacing selected_activate_line_leading selected_activate_left_padding selected_activate_kerning selected_activate_first_spacing selected_activate_clipping selected_activate_bottom_padding selected_activate_bar_resizing minimum maximum left_margin hover_ycenter hover_yanchor hover_xcenter hover_xanchor hover_transform_anchor hover_top_gutter hover_top_bar hover_slow_cps_multiplier hover_right_gutter hover_right_bar hover_left_gutter hover_left_bar hover_drop_shadow_color hover_color hover_bottom_gutter hover_bottom_bar hover_black_color hover_anchor hover font fit_first first_indent activate_justify activate_delay use nvl null jump hotbar value top_padding text_selected_line_spacing text_selected_line_leading text_selected_kerning text_selected_insensitive_selected_hover_line_spacing text_selected_insensitive_selected_hover_line_leading text_selected_insensitive_selected_hover_kerning text_selected_insensitive_selected_hover_clipping text_selected_idle_line_spacing text_selected_idle_line_leading text_selected_idle_kerning text_selected_idle_clipping text_selected_clipping text_selected_activate_line_spacing text_selected_activate_line_leading text_selected_activate_kerning text_selected_activate_clipping text_line_spacing text_line_leading text_kerning text_insensitive_line_spacing text_insensitive_line_leading text_insensitive_kerning text_insensitive_clipping text_idle_line_spacing text_idle_line_leading text_idle_kerning text_idle_clipping text_hover_line_spacing text_hover_line_leading text_hover_kerning text_hover_clipping text_clipping text_activate_line_spacing text_activate_line_leading text_activate_kerning text_activate_clipping strikethrough selected_strikethrough selected_minwidth selected_min_width selected_insensitive_selected_hover_strikethrough selected_insensitive_selected_hover_minwidth selected_insensitive_selected_hover_min_width selected_idle_strikethrough selected_idle_minwidth selected_idle_min_width selected_activate_strikethrough selected_activate_minwidth selected_activate_min_width insensitive_ycenter insensitive_yanchor insensitive_xcenter insensitive_xanchor insensitive_transform_anchor insensitive_top_gutter insensitive_top_bar insensitive_slow_cps_multiplier insensitive_right_gutter insensitive_right_bar insensitive_left_gutter insensitive_left_bar insensitive_drop_shadow_color insensitive_color insensitive_bottom_gutter insensitive_bottom_bar insensitive_black_color insensitive_anchor idle_ycenter idle_yanchor idle_xcenter idle_xanchor idle_transform_anchor idle_top_gutter idle_top_bar idle_slow_cps_multiplier idle_right_gutter idle_right_bar idle_left_gutter idle_left_bar idle_drop_shadow_color idle_color idle_bottom_gutter idle_bottom_bar idle_black_color idle_anchor hyperlink_functions hover_ypos hover_xpos hover_slow_cps hover_radius hover_pos hover_outlines hover_hyperlink_functions hover_antialias drop_shadow voice has 
+12:15:56 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: loadBufferModeKeywords: no word separators extracted from the mode renpy of the buffer 'options.rpy': _$
+12:15:56 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.0.0,source=/home/ricardo/.jedit/jars/TextAutocomplete.jar,class=net.jakubholy.jedit.autocomplete.TextAutocompletePlugin]
+12:15:56 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:15:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=options.rpy ($RENPY_BASE/tutorial/game/)]
+12:15:58 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:15:58 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: popup displayed
+12:15:58 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyTyped: evt=java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='n',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=110,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6389,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=19,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:0
+12:15:58 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:15:58 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:15:59 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyTyped: evt=java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='f',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=102,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6390,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=28,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:0
+12:15:59 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:15:59 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:15:59 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyTyped: evt=java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='i',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=105,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6391,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=38,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:0
+12:15:59 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:15:59 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:16:00 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyTyped: evt=java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='g',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=103,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6392,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=48,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:0
+12:16:00 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:00 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:16:02 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyPressed: evt=java.awt.event.KeyEvent[KEY_PRESSED,keyCode=8,keyText=Retroceso,keyChar=Retroceso,keyLocation=KEY_LOCATION_STANDARD,rawCode=22,primaryLevelUnicode=8,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6393,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=57,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:0
+12:16:02 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:02 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:16:02 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyTyped: evt=java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar=Retroceso,keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=8,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6392,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=48,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:0
+12:16:02 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyTyped: evt=java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='g',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=103,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6392,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=48,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:0
+12:16:02 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:02 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:16:04 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyPressed: evt=java.awt.event.KeyEvent[KEY_PRESSED,keyCode=8,keyText=Retroceso,keyChar=Retroceso,keyLocation=KEY_LOCATION_STANDARD,rawCode=22,primaryLevelUnicode=8,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6393,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=57,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:0
+12:16:04 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:04 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:16:04 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyTyped: evt=java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar=Retroceso,keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=8,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6392,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=48,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:0
+12:16:04 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyTyped: evt=java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='g',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=103,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6392,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=48,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:0
+12:16:04 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:04 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:16:09 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyPressed: evt=java.awt.event.KeyEvent[KEY_PRESSED,keyCode=17,keyText=Ctrl,keyChar=Undefined keyChar,modifiers=Ctrl,extModifiers=Ctrl,keyLocation=KEY_LOCATION_LEFT,rawCode=66,primaryLevelUnicode=0,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6393,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=57,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:2
+12:16:09 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:09 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:16:10 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyPressed: evt=java.awt.event.KeyEvent[KEY_PRESSED,keyCode=90,keyText=Z,keyChar='',modifiers=Ctrl,extModifiers=Ctrl,keyLocation=KEY_LOCATION_STANDARD,rawCode=52,primaryLevelUnicode=122,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6392,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=48,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:2
+12:16:10 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:10 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:16:10 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyPressed: evt=java.awt.event.KeyEvent[KEY_PRESSED,keyCode=90,keyText=Z,keyChar='',modifiers=Ctrl,extModifiers=Ctrl,keyLocation=KEY_LOCATION_STANDARD,rawCode=52,primaryLevelUnicode=122,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6393,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=57,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:2
+12:16:10 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:10 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:16:10 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyPressed: evt=java.awt.event.KeyEvent[KEY_PRESSED,keyCode=90,keyText=Z,keyChar='',modifiers=Ctrl,extModifiers=Ctrl,keyLocation=KEY_LOCATION_STANDARD,rawCode=52,primaryLevelUnicode=122,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6392,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=48,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:2
+12:16:10 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:10 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:16:10 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyPressed: evt=java.awt.event.KeyEvent[KEY_PRESSED,keyCode=90,keyText=Z,keyChar='',modifiers=Ctrl,extModifiers=Ctrl,keyLocation=KEY_LOCATION_STANDARD,rawCode=52,primaryLevelUnicode=122,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6393,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=57,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:2
+12:16:10 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=options.rpy ($RENPY_BASE/tutorial/game/)]
+12:16:11 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=options.rpy ($RENPY_BASE/tutorial/game/)]
+12:16:11 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:11 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: popup displayed
+12:16:11 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyTyped: evt=java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='n',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=110,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6389,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=19,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:0
+12:16:11 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:11 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:16:11 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyTyped: evt=java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='f',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=102,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6390,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=28,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:0
+12:16:11 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:11 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:16:12 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyPressed: evt=java.awt.event.KeyEvent[KEY_PRESSED,keyCode=17,keyText=Ctrl,keyChar=Undefined keyChar,modifiers=Ctrl,extModifiers=Ctrl,keyLocation=KEY_LOCATION_LEFT,rawCode=66,primaryLevelUnicode=0,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6391,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=38,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:2
+12:16:12 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=options.rpy ($RENPY_BASE/tutorial/game/)]
+12:16:13 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=options.rpy ($RENPY_BASE/tutorial/game/)]
+12:16:13 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:13 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: popup displayed
+12:16:13 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyTyped: evt=java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='n',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=110,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6389,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=19,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:0
+12:16:13 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:13 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:16:13 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyTyped: evt=java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='f',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=102,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6390,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=28,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:0
+12:16:13 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:13 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:16:13 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyTyped: evt=java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='i',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=105,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6391,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=38,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:0
+12:16:13 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:13 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:16:13 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyTyped: evt=java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='g',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=103,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6392,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=48,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:0
+12:16:13 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: entry
+12:16:13 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: displayCompletionPopup: an already displayed popup updated
+12:16:14 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: CompletionPopup.keyPressed: evt=java.awt.event.KeyEvent[KEY_PRESSED,keyCode=17,keyText=Ctrl,keyChar=Undefined keyChar,modifiers=Ctrl,extModifiers=Ctrl,keyLocation=KEY_LOCATION_LEFT,rawCode=66,primaryLevelUnicode=0,scancode=0] on org.gjt.sp.jedit.textarea.JEditTextArea[,4,60,960x596,layout=org.gjt.sp.jedit.textarea.ScrollLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=288,maximumSize=,minimumSize=,preferredSize=,caret=6393,caretLine=199,caretScreenLine=20,electricScroll=3,horizontalOffset=0,magicCaret=-1,offsetXY=java.awt.Point[x=57,y=420],oldCaretLine=199,screenLastLine=27,visibleLines=28,firstPhysicalLine=179,physLastLine=206],modif.:2
+12:16:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=options.rpy ($RENPY_BASE/tutorial/game/)]
+12:16:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=options.rpy ($RENPY_BASE/tutorial/game/)]
+12:16:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=options.rpy ($RENPY_BASE/tutorial/game/)]
+12:16:25 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:16:25 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:16:25 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:16:25 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)
+12:16:25 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:16:26 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:16:27 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:16:49 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:16:49 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:16:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+12:16:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:16:50 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:17:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:17:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:17:22 [AWT-EventQueue-0] [debug] WhiteSpacePlugin: bufferSaving: 21 ms
+12:17:22 [AWT-EventQueue-0] [debug] FileVFS: /home/ricardo/src/Renpy Imagebuttons GUI sample/game/example.rpy has permissions 0664
+12:17:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:17:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:17:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)]
+12:17:22 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/ricardo/src/Renpy Imagebuttons GUI sample/game,source=null]
+12:17:22 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/ricardo/src/Renpy Imagebuttons GUI sample/game/#example.rpy#save#,source=null]
+12:17:22 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/ricardo/src/Renpy Imagebuttons GUI sample/game/example.rpy,source=null]
+12:17:22 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/ricardo/src/Renpy Imagebuttons GUI sample/game/example.rpy~,source=null]
+12:17:37 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)
+12:17:37 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:41 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=DEACTIVATED,dockable=console,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@61b00766,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+12:17:44 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=DEACTIVATED,dockable=projectviewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@61b00766,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+12:17:44 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=projectviewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@61b00766,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+12:17:45 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=DEACTIVATED,dockable=projectviewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,1280x897,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@61b00766,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: ViewerUpdate[source=projectviewer.ProjectViewer[,0,0,0x897,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@7c75c2be,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+12:17:49 [AWT-EventQueue-0] [message] PerspectiveManager: Saving /home/ricardo/.jedit/perspective.xml
+12:17:49 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/perspective.xml" to "/home/ricardo/.jedit/settings-backup/perspective.xml~1~"
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+12:17:49 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer removed demo_persistent.rpy ($RENPY_BASE/tutorial/game/)
+12:17:49 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:demo_persistent.rpy ($RENPY_BASE/tutorial/game/) is in no bufferSet anymore, closing it
+12:17:49 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer removed demo_persistent.rpy ($RENPY_BASE/tutorial/game/tl/japanese/)
+12:17:49 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:demo_persistent.rpy ($RENPY_BASE/tutorial/game/tl/japanese/) is in no bufferSet anymore, closing it
+12:17:49 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer removed example.rpy (~/src/Renpy Imagebuttons GUI sample/game/)
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:17:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: keywords.py ($RENPY_BASE/tutorial/game/)
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:example.rpy (~/src/Renpy Imagebuttons GUI sample/game/) is in no bufferSet anymore, closing it
+12:17:49 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer removed keywords.py ($RENPY_BASE/tutorial/game/)
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:17:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: options.rpy (~/src/Renpy Imagebuttons GUI sample/game/)
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:keywords.py ($RENPY_BASE/tutorial/game/) is in no bufferSet anymore, closing it
+12:17:49 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer removed options.rpy (~/src/Renpy Imagebuttons GUI sample/game/)
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:17:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: options.rpy ($RENPY_BASE/tutorial/game/)
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:options.rpy (~/src/Renpy Imagebuttons GUI sample/game/) is in no bufferSet anymore, closing it
+12:17:49 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer removed options.rpy ($RENPY_BASE/tutorial/game/)
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:17:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: screens.rpy (~/src/Renpy Imagebuttons GUI sample/game/)
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:options.rpy ($RENPY_BASE/tutorial/game/) is in no bufferSet anymore, closing it
+12:17:49 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer removed screens.rpy (~/src/Renpy Imagebuttons GUI sample/game/)
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:17:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: script.rpy (~/src/Renpy Imagebuttons GUI sample/game/)
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:screens.rpy (~/src/Renpy Imagebuttons GUI sample/game/) is in no bufferSet anymore, closing it
+12:17:49 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer removed script.rpy (~/src/Renpy Imagebuttons GUI sample/game/)
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+12:17:49 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for current buffer: tutorial_quickstart.rpy ($RENPY_BASE/tutorial/game/tl/japanese/)
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:script.rpy (~/src/Renpy Imagebuttons GUI sample/game/) is in no bufferSet anymore, closing it
+12:17:49 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: Buffer removed tutorial_quickstart.rpy ($RENPY_BASE/tutorial/game/tl/japanese/)
+12:17:49 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:tutorial_quickstart.rpy ($RENPY_BASE/tutorial/game/tl/japanese/) is in no bufferSet anymore, closing it
+12:17:49 [AWT-EventQueue-0] [debug] BufferSet: 1619519236: removeBufferSetListener buffertabs.BufferTabs[]
+12:17:49 [AWT-EventQueue-0] [notice] CandyFoldsPlugin: textAreaExt removed
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=/home/ricardo/src/renpy/jedit/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/ricardo/src/renpy/jedit/jars/jedit5.1.0install.jar]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.2.3,source=/home/ricardo/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.2.3,source=/home/ricardo/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=2.5.1,source=/home/ricardo/.jedit/jars/FastOpen.jar,class=com.patelsoft.fastopen.FastOpenPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=2.0,source=/home/ricardo/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.3.1,source=/home/ricardo/.jedit/jars/MacroManager.jar,class=macroManager.MacroManagerPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=0.7.1,source=/home/ricardo/.jedit/jars/GitPlugin.jar,class=git.GitPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=0.7.1,source=/home/ricardo/.jedit/jars/GitPlugin.jar,class=git.GitPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=2.5,source=/home/ricardo/.jedit/jars/Navigator.jar,class=ise.plugin.nav.NavigatorPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=2.5,source=/home/ricardo/.jedit/jars/Navigator.jar,class=ise.plugin.nav.NavigatorPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=2.3,source=/home/ricardo/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=2.3,source=/home/ricardo/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.2.4,source=/home/ricardo/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.2.4,source=/home/ricardo/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.1,source=/home/ricardo/.jedit/jars/FoldViewer.jar,class=foldviewer.FoldViewerPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.1,source=/home/ricardo/.jedit/jars/FoldViewer.jar,class=foldviewer.FoldViewerPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.7,source=/home/ricardo/.jedit/jars/EditorScheme.jar,class=editorscheme.EditorSchemePlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.7.3,source=/home/ricardo/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.7.3,source=/home/ricardo/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=5.1.4,source=/home/ricardo/.jedit/jars/Console.jar,class=console.ConsolePlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.1.4,source=/home/ricardo/.jedit/jars/Console.jar,class=console.ConsolePlugin]
+12:17:49 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: Detaching and destroying all autocompletes...
+12:17:49 [AWT-EventQueue-0] [debug] TextAutocompletePlugin: Detaching from the buffer: options.rpy ($RENPY_BASE/tutorial/game/)
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.0.0,source=/home/ricardo/.jedit/jars/TextAutocomplete.jar,class=net.jakubholy.jedit.autocomplete.TextAutocompletePlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.0.0,source=/home/ricardo/.jedit/jars/TextAutocomplete.jar,class=net.jakubholy.jedit.autocomplete.TextAutocompletePlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=3.5.3,source=/home/ricardo/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=3.5.3,source=/home/ricardo/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/ricardo/.jedit/jars/tar.jar]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/ricardo/.jedit/jars/kappalayout.jar]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=0.3b,source=/home/ricardo/.jedit/jars/DirtyGutter.jar,class=lcm.LCMPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=0.3b,source=/home/ricardo/.jedit/jars/DirtyGutter.jar,class=lcm.LCMPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=/home/ricardo/.jedit/jars/activation.jar]
+12:17:49 [AWT-EventQueue-0] [debug] WhiteSpacePlugin: removing all highlights
+12:17:49 [AWT-EventQueue-0] [debug] WhiteSpacePlugin: removing WhiteSpaceModel properties
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.0.2,source=/home/ricardo/.jedit/jars/WhiteSpace.jar,class=whitespace.WhiteSpacePlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.0.2,source=/home/ricardo/.jedit/jars/WhiteSpace.jar,class=whitespace.WhiteSpacePlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=0.6,source=/home/ricardo/.jedit/jars/Code2HTML.jar,class=code2html.Code2HTMLPlugin]
+12:17:49 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=0.6,source=/home/ricardo/.jedit/jars/Code2HTML.jar,class=code2html.Code2HTMLPlugin]
+12:17:49 [AWT-EventQueue-0] [message] HistoryModel: Saving history
+12:17:49 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/history" to "/home/ricardo/.jedit/settings-backup/history~1~"
+12:17:49 [AWT-EventQueue-0] [message] BufferHistory: Saving /home/ricardo/.jedit/recent.xml
+12:17:50 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/recent.xml" to "/home/ricardo/.jedit/settings-backup/recent.xml~1~"
+12:17:50 [AWT-EventQueue-0] [message] KillRing: Saving /home/ricardo/.jedit/killring.xml
+12:17:50 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/killring.xml" to "/home/ricardo/.jedit/settings-backup/killring.xml~1~"
+12:17:50 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/ricardo/.jedit/properties" to "/home/ricardo/.jedit/settings-backup/properties~1~"
